@@ -87,7 +87,7 @@ if __name__ == '__main__':
 
     # для всех пар выполнить замену текста html-кода
     for en, ru in translation_pairs:
-        r = re.compile(rf'({en})', re.IGNORECASE)
+        r = re.compile(rf'(?<!\w)({en})(?!\w)', re.IGNORECASE)
         node_inner_html = r.sub(rf'\1 /{ru}/', node_inner_html)
 
     translated_file_path = f'{os.path.splitext(file_path)[0]}_translated.html'
