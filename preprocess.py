@@ -20,17 +20,14 @@ if __name__ == '__main__':
     node_inner_html = node.decode_contents()
 
     # выбор токенов по регулярному выражению
-    tokens = nltk.regexp_tokenize(node_text, r'[\w-]+')
-    total_tokens = len(tokens)
+    all_tokens = nltk.regexp_tokenize(node_text, r'[\w-]+')
+    tokens = []
 
-    # упорядочивание токенов по убыванию частоты встречаемости
-    token_count = defaultdict(lambda: 0)
-    for token in tokens:
-        token_count[token] += 1
-    token_count = sorted(
-        [(token, count) for token, count in token_count.items()],
-        key=lambda x: x[1])[::-1]
-    token_len = len(token_count)
+    # такое решение гарантирует, что порядок токенов будет сохранён
+    for token in all_tokens:
+        if token not in tokens:
+            tokens.append(token)
+    token_len = len(tokens)
 
     # загрузка словаря извесных слов
     known = []
@@ -41,20 +38,16 @@ if __name__ == '__main__':
     except:
         pass
 
-    current_tokens = 0
     to_translate = []
 
-    for i, token in enumerate(token_count):
-        word = token[0]
-        count = token[1]
-        current_tokens += count
+    for i, token in enumerate(tokens):
+        word = token
 
         # известные слова пропускаем
         if word in known or word.isdigit() or len(word) == 1:
             continue
 
-        ans = input(
-            f"({i + 1} of {token_len}, {current_tokens * 100 // total_tokens}%) Do you know word '{word}' [{count} times]?: ").lower()
+        ans = input(f"({'%2d' % (100 * (i+1) // token_len)}%) Do you know word '{word}'?: ").lower()
 
         if ans == 'stop':
             break
