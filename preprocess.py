@@ -1,7 +1,8 @@
-import nltk
 import os
 import re
 import webbrowser
+
+import nltk
 from bs4 import BeautifulSoup
 
 
@@ -18,6 +19,24 @@ def load_known_dict(file_path: str):
         return set()
 
 
+def load_unknown_dict(file_path: str):
+    """
+    :param file_path: path to the dict file
+    :return: dict of words-translations
+    """
+    try:
+        with open(file_path, encoding='utf-8') as f:
+            content = f.readlines()
+
+        unknown = {}
+        for x in content:
+            word, translation = x.strip().split(';')
+            unknown[word] = translation
+        return unknown
+    except:
+        return {}
+
+
 def save_known_dict(known: set, file_path: str):
     """
     :param known: set of words to save
@@ -27,6 +46,19 @@ def save_known_dict(known: set, file_path: str):
         with open(file_path, encoding='utf-8', mode='w') as f:
             for word in known:
                 f.write(f'{word}\n')
+    except:
+        pass
+
+
+def save_unknown_dict(unknown: dict, file_path: str):
+    """
+    :param unknown: dict of unknown words (key) with translations (value)
+    :param file_path: path to the dict file
+    """
+    try:
+        with open(file_path, encoding='utf-8', mode='w') as f:
+            for word, translation in unknown.items():
+                f.write(f'{word};{translation}\n')
     except:
         pass
 
@@ -56,15 +88,24 @@ if __name__ == '__main__':
     token_len = len(tokens)
 
     known_filepath = 'known.txt'
+    unknown_filepath = 'unknown.txt'
     known = load_known_dict(known_filepath)
+    unknown = load_unknown_dict(unknown_filepath)
+
     to_translate = []  # list of words to translate
+    translation_pairs = []
 
     for i, word in enumerate(tokens):
         # known words, digits and one-letter words are passed
         if word in known or word.isdigit() or len(word) == 1:
             continue
 
-        percent = '%2d' % (100 * (i+1) // token_len)
+        # unknown words from dict are passed to increase processing speed
+        if word in unknown:
+            translation_pairs.append((word, unknown[word]))
+            continue
+
+        percent = '%2d' % (100 * (i + 1) // token_len)
         ans = input(f"({percent}%) Do you know word '{word}'?: ").lower()
 
         if ans == 'stop':
@@ -73,8 +114,6 @@ if __name__ == '__main__':
             known.add(word)
         else:
             to_translate.append(word)
-
-    save_known_dict(known, known_filepath)
 
     # print list of words to translate
     print('Words to translate:')
@@ -87,7 +126,12 @@ if __name__ == '__main__':
 
     translation = [token.strip() for token in
                    input('Enter translated words: ').split(';')]
-    translation_pairs = [(en, ru) for en, ru in zip(to_translate, translation)]
+    for en, ru in zip(to_translate, translation):
+        translation_pairs.append((en, ru))
+
+    save_known_dict(known, known_filepath)
+    unknown = {word: translation for word, translation in translation_pairs}
+    save_unknown_dict(unknown, unknown_filepath)
 
     # replace unknown words to words + translations
     for en, ru in translation_pairs:
@@ -103,9 +147,7 @@ if __name__ == '__main__':
         content = f'''
             <!DOCTYPE html>
             <html>
-            <head>
-            <title>{doc.title}</title>
-            </head>
+            <head>{doc.title}</head>
             <body {style_attr}>{node_inner_html}</body>
             </html>
             '''

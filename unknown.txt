@@ -1,0 +1,112 @@
+disambiguation;устранение неоднозначности
+growing;рост
+merkle;Меркл
+proves;доказывает
+existed;существовал
+reinforcing;подкрепление
+therefore;следовательно
+resistant;устойчивый
+any;любой
+altered;измененный
+retroactively;задним числом
+altering;изменение
+subsequent;последующий
+managed;управляемый
+peer-to-peer;одноранговый
+publicly;публично
+ledger;реестр
+collectively;коллективно
+adhere;придерживаться
+although;хотя
+unalterable;неизменяемый
+considered;рассматривается
+exemplify;служить примером
+byzantine;византийский
+fault;ошибка
+tolerance;терпимость
+invented;изобретенный
+identity;идентичность
+invention;изобретение
+currency;валюта
+double-spending;двойное расходование
+trusted;доверенный
+authority;авторитет
+inspired;вдохновленный
+rail;рельс
+proposed;предложенный
+such;такой
+privatized;приватизированный
+proper;собственно
+snake;змея
+oil;масло
+however;однако
+argued;аргументированный
+permissioned;разрешенный
+permissionless;несанкционированный
+openness;открытость
+anti-counterfeiting;борьба с подделками
+healthcare;здравоохранение
+domain;домен
+sidechains;боковые цепи
+interoperability;взаимодействие
+consumption;потребление
+academic;академический
+research;исследования
+adoption;принятие
+decision;решение
+collaboration;сотрудничество
+internal;внутренний
+audit;аудит
+journals;журналы
+also;также
+references;ссылки
+further;дальнейшее
+reading;чтение
+external;внешнее
+links;ссылки
+ethereum;ethereum
+litecoin;litecoin
+per;per
+cryptographer;криптограф
+chaum;chaum
+established;установлен
+maintained;поддерживается
+mutually;взаимно
+suspicious;подозрительно
+wherein;в котором
+tampered;подделано
+incorporated;включено
+several;несколько
+hashcash-like;подобный хэш-кэшу
+them;они
+signed;подписано
+party;партия
+following;подписание
+reached;достигнуто
+gb;gb
+grown;выросло
+almost;почти
+grew;выросло
+exceeded;превышено
+eventually;в конечном итоге
+popularized;популяризировано
+accenture;акцент
+diffusion;распространение
+suggests;предполагает
+attained;достигнуто
+within;внутри
+reaching;достижение
+adopters;усыновители
+chamber;камера
+gartner;гартнер
+found;найдено
+cios;cios
+short-term;краткосрочные
+looking;поиск
+believed;поверили
+game-changer;меняет правила игры
+formation;формирование
+genesis;генезис
+orphan;сирота
+purple;пурпурный
+oftentimes;часто
