@@ -1,6 +1,5 @@
 from collections import defaultdict
 
-import json
 import nltk
 import os
 import re
@@ -30,11 +29,12 @@ if __name__ == '__main__':
     token_len = len(tokens)
 
     # загрузка словаря извесных слов
-    known = []
+    known = set()
     known_filepath = 'known.dict'
     try:
         with open(known_filepath, encoding='utf-8') as f:
-            known = json.load(f)
+            content = f.readlines()
+            known = set([x.strip() for x in content])
     except:
         pass
 
@@ -52,14 +52,15 @@ if __name__ == '__main__':
         if ans == 'stop':
             break
         elif ans == 'y':
-            known.append(word)
-        elif ans == 'n':
+            known.add(word)
+        else:
             to_translate.append(word)
 
     # сохранение словаря известных слов
     try:
         with open(known_filepath, encoding='utf-8', mode='w') as f:
-            json.dump(known, f)
+            for word in known:
+                f.write(f'{word}\n')
     except:
         pass
 
