@@ -55,3 +55,69 @@ established;установлено;ɪˈstæblɪʃt
 maintained;поддерживается;meɪnˈteɪnd
 mutually;взаимно;mˈjuʧuəli
 suspicious;подозрительно;səˈspɪʃəs
+wherein;в котором;wɛˈrɪn
+tampered;подделано;ˈtæmpərd
+incorporated;включено;ˌɪnˈkɔrpərˌeɪtɪd
+hashcash-like;хэш-кэш;hashcash-like*
+them;они;ðɛm
+signed;подписано;saɪnd
+party;вечеринка;ˈpɑrti
+following;подписание;ˈfɑloʊɪŋ
+reached;достигнуто;riʧt
+grown;выросло;groʊn
+almost;почти;ˈɔlˌmoʊst
+grew;выросло;gru
+exceeded;превысило;ɪkˈsidɪd
+eventually;в конечном итоге;ɪˈvɛnʧəwəli
+popularized;популяризировано;ˈpɑpjələrˌaɪzd
+accenture;акцент;accenture*
+diffusion;распространение;dɪfˈjuʒən
+suggests;предполагает;səˈʤɛsts
+attained;достигнуто;əˈteɪnd
+within;внутри;wɪˈθɪn
+reaching;достигнув;ˈriʧɪŋ
+adopters;усыновителей;əˈdɑptərz
+chamber;палаты;ˈʧeɪmbər
+gartner;gartner;ˈgɑrtnər
+cios;cios;cios*
+short-term;краткосрочный;ˌʃɔrtˈtərm
+believed;предполагаемый;bɪˈlivd
+game-changer;изменение правил игры;game-changer*
+formation;формирование;fɔrˈmeɪʃən
+genesis;генезис;ˈʤɛnəsəs
+orphan;сирота;ˈɔrfən
+oftentimes;часто;ˈɔfənˌtaɪmz
+across;поперек;əˈkrɔs
+alteration;изменение;ˌɔltərˈeɪʃən
+participants;участники;pɑrˈtɪsəpənts
+inexpensively;недорого;ˌɪnəkˈspɛnsɪvli
+timestamping;временные метки;timestamping*
+authenticated;аутентифицированный;ɔˈθɛntəˌkeɪtəd
+mass;массовый;mæs
+powered;мощный;paʊərd
+self-interests;корыстные интересы;self-interests*
+facilitates;облегчает;fəˈsɪləˌteɪts
+robust;надежный;roʊˈbəst
+uncertainty;неопределенность;ənˈsərtənti
+regarding;относительно;rɪˈgɑrdɪŋ
+marginal;маргинальный;ˈmɑrʤənəl
+reproducibility;воспроизводимость;reproducibility*
+asset;актив;ˈæˌsɛt
+long-standing;долгосрочный;long-standing*
+spending;расходы;ˈspɛndɪŋ
+maintain;поддерживать;meɪnˈteɪn
+properly;должным образом;ˈprɑpərli
+compels;принуждает;kəmˈpɛlz
+offer;предложение;ˈɔfər
+acceptance;принятие;əkˈsɛptəns
+propagation;распространение;ˌprɑpəˈgeɪʃən
+stake;доля;steɪk
+prior;предшествующий;praɪər
+integrity;целостность;ˌɪnˈtɛgrəti
+concurrently;одновременно;kənˈkərəntli
+specified;указанный;ˈspɛsəˌfaɪd
+over;сверх;ˈoʊvər
+inclusion;включение;ˌɪnˈkluʒən
+peers;сверстники;pɪrz
+whenever;всякий раз;wɛˈnɛvər
+peer;равноправный;pɪr
