@@ -2,12 +2,22 @@
 
 Helper python tool for translate web page from english to russian in educatinal purposes
 
+Original page (fragment)
+
+![Original page](images/original.png)
+
+Page after processing (fragment)
+
+![Page after processing](images/preprocessed.png)
+
+
 ## Installation
 
 1. Install python
 2. Install libraries:
 * nltk
 * beautifulsoup4
+* eng-to-ipa
 
 ## Usage
 
@@ -19,3 +29,9 @@ Helper python tool for translate web page from english to russian in educatinal 
 6. When Google Translate web-page opened copy translation to clipboard
 7. Paste translation to prompt
 8. Prepared page will be saved near the original page
+
+## Use as dictionary for learning words
+
+You can open file `unknown.txt` in Excel to use it as dictionary for learning words. See screenshot below:
+
+![Use as dictionary for learning words](images/use_as_dict.png)

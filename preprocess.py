@@ -4,6 +4,8 @@ import webbrowser
 
 import nltk
 from bs4 import BeautifulSoup
+from tqdm import tqdm
+import eng_to_ipa as ipa
 
 
 def load_known_dict(file_path: str):
@@ -30,7 +32,7 @@ def load_unknown_dict(file_path: str):
 
         unknown = {}
         for x in content:
-            word, translation = x.strip().split(';')
+            word, translation, transcription = x.strip().split(';')
             unknown[word] = translation
         return unknown
     except:
@@ -58,7 +60,7 @@ def save_unknown_dict(unknown: dict, file_path: str):
     try:
         with open(file_path, encoding='utf-8', mode='w') as f:
             for word, translation in unknown.items():
-                f.write(f'{word};{translation}\n')
+                f.write(f'{word};{translation};{ipa.convert(word)}\n')
     except:
         pass
 
@@ -134,7 +136,7 @@ if __name__ == '__main__':
     save_unknown_dict(unknown, unknown_filepath)
 
     # replace unknown words to words + translations
-    for en, ru in translation_pairs:
+    for en, ru in tqdm(translation_pairs):
         # negative lookup for replace whole words only
         r = re.compile(rf'(?<!\w)({en})(?!\w)', re.IGNORECASE)
         # \1 to keep original case
@@ -152,3 +154,4 @@ if __name__ == '__main__':
             </html>
             '''
         f.write(content)
+    print(f'Processed page successfully save on {translated_file_path}')
