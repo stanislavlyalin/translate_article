@@ -155,3 +155,4 @@ if __name__ == '__main__':
             '''
         f.write(content)
     print(f'Processed page successfully save on {translated_file_path}')
+    webbrowser.open(translated_file_path)
