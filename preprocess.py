@@ -149,7 +149,10 @@ if __name__ == '__main__':
         content = f'''
             <!DOCTYPE html>
             <html>
-            <head>{doc.title}</head>
+            <head>
+            {doc.title}
+            <meta charset="utf-8"/>
+            </head>
             <body {style_attr}>{node_inner_html}</body>
             </html>
             '''
