@@ -3,6 +3,7 @@ from collections import defaultdict
 import json
 import nltk
 import re
+import webbrowser
 from bs4 import BeautifulSoup
 
 if __name__ == '__main__':
@@ -71,6 +72,10 @@ if __name__ == '__main__':
     # вывод списка слов для перевода
     print('Words to translate:')
     print(';'.join(to_translate))
+
+    # запуск браузера со словами для перевода
+    url = f'https://translate.google.com/?hl=ru&sl=en&tl=ru&text={"%3B".join(to_translate)}&op=translate'
+    webbrowser.open(url)
 
     translation = input('Enter translated words: ')
 
