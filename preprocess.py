@@ -55,7 +55,7 @@ if __name__ == '__main__':
             tokens.append(token)
     token_len = len(tokens)
 
-    known_filepath = 'known.dict'
+    known_filepath = 'known.txt'
     known = load_known_dict(known_filepath)
     to_translate = []  # list of words to translate
 
