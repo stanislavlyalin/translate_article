@@ -140,7 +140,8 @@ if __name__ == '__main__':
         # negative lookup for replace whole words only
         r = re.compile(rf'(?<!\w)({en})(?!\w)', re.IGNORECASE)
         # \1 to keep original case
-        node_inner_html = r.sub(rf'\1 /{ru}/', node_inner_html)
+        node_inner_html = r.sub(rf'\1 /{ipa.convert(en)}, {ru}/',
+                                node_inner_html)
 
     # save prepared page near the original
     translated_file_path = f'{os.path.splitext(file_path)[0]}_translated.html'
