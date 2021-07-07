@@ -86,4 +86,4 @@ if __name__ == '__main__':
 
     translated_file_path = f'{os.path.splitext(file_path)[0]}_translated.html'
     with open(translated_file_path, encoding='utf-8', mode='w') as f:
-        f.write(f'<!DOCTYPE html><html><head></head><body>{node_inner_html}</body></html>')
+        f.write(f'<!DOCTYPE html><html><head></head><body style="font-family: verdana; font-size: 10pt">{node_inner_html}</body></html>')
