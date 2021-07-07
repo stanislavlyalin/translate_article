@@ -2,6 +2,7 @@ from collections import defaultdict
 
 import json
 import nltk
+import os
 import re
 import webbrowser
 from bs4 import BeautifulSoup
@@ -89,5 +90,6 @@ if __name__ == '__main__':
         r = re.compile(rf'({en})', re.IGNORECASE)
         node_inner_html = r.sub(rf'\1 /{ru}/', node_inner_html)
 
-    with open('ready.html', encoding='utf-8', mode='w') as f:
+    translated_file_path = f'{os.path.splitext(file_path)[0]}_translated.html'
+    with open(translated_file_path, encoding='utf-8', mode='w') as f:
         f.write(f'<!DOCTYPE html><html><head></head><body>{node_inner_html}</body></html>')
