@@ -20,3 +20,38 @@ adhere;придерживаться;əˈdhɪr
 although;хотя;ˌɔlˈðoʊ
 unalterable;неизменный;əˈnɔltərəbəl
 considered;считается;kənˈsɪdərd
+exemplify;пример;ɪgˈzɛmpləˌfaɪ
+byzantine;византийский;ˈbɪzənˌtin
+fault;ошибка;fɔlt
+tolerance;терпимость;ˈtɑlərəns
+invented;изобретенный;ˌɪnˈvɛntɪd
+identity;идентичность;aɪˈdɛntəˌti
+invention;изобретение;ˌɪnˈvɛnʃən
+currency;валюта;ˈkərənsi
+double-spending;двойное расходование;double-spending*
+trusted;доверенный;ˈtrəstɪd
+authority;авторитет;əˈθɔrəti
+inspired;вдохновленный;ˌɪnˈspaɪərd
+rail;железная дорога;reɪl
+proposed;предложенный;prəˈpoʊzd
+privatized;приватизированный;ˈpraɪvəˌtaɪzd
+proper;надлежащий;ˈprɑpər
+oil;нефть;ɔɪl
+however;однако;ˌhaʊˈɛvər
+argued;утверждал;ˈɑrgjud
+permissioned;разрешено;permissioned*
+permissionless;неразрешенный;permissionless*
+openness;открытость;ˈoʊpənəs
+anti-counterfeiting;борьба с подделкой;anti-counterfeiting*
+healthcare;здравоохранение;ˈhɛlθˌkɛr
+domain;домен;doʊˈmeɪn
+sidechains;боковые цепи;sidechains*
+interoperability;взаимодействие;interoperability*
+consumption;потребление;kənˈsəmʃən
+adoption;принятие;əˈdɑpʃən
+further;дальнейшее;ˈfərðər
+litecoin;litecoin;litecoin*
+established;установлено;ɪˈstæblɪʃt
+maintained;поддерживается;meɪnˈteɪnd
+mutually;взаимно;mˈjuʧuəli
+suspicious;подозрительно;səˈspɪʃəs
