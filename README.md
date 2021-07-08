@@ -30,6 +30,8 @@ Page after processing (fragment)
 7. Paste translation to prompt
 8. Prepared page will be saved near the original page
 
+If you want to get **pdf** from processed page, use **Print to pdf function** in your browser.
+
 ## Use as dictionary for learning words
 
 You can open file `unknown.txt` in Excel to use it as dictionary for learning words. See screenshot below:
