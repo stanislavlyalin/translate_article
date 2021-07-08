@@ -37,3 +37,25 @@ If you want to get **pdf** from processed page, use **Print to pdf function** in
 You can open file `unknown.txt` in Excel to use it as dictionary for learning words. See screenshot below:
 
 ![Use as dictionary for learning words](images/use_as_dict.png)
+
+## Use as Anki flashcards
+
+![Anki main](images/anki_main.png)
+
+If you want to use method of [Spaced repetition](https://en.wikipedia.org/wiki/Spaced_repetition) for study words, you can
+convert your `unknown.txt` dictionary to [Anki flashcards](https://apps.ankiweb.net/).
+
+Step-by-step manual:
+1. Download and install Anki from [official site](https://apps.ankiweb.net/)
+2. Run `convert_to_anki.py`. It will produce file `anki.txt`
+3. In Anki click File -> Import... and select file `anki.txt`. Don't forget to select "HTML in fields" checkbox:
+
+![Anki add](images/anki_add.png)
+
+![Anki html checkbox](images/anki_html_checkbox.png)
+
+4. Now you can use your new deck to study words
+
+You also can import your deck to mobile app
+
+![Anki droid](images/anki_droid.png)
