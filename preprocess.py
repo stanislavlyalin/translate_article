@@ -46,7 +46,7 @@ def save_known_dict(known: set, file_path: str):
     """
     try:
         with open(file_path, encoding='utf-8', mode='w') as f:
-            for word in known:
+            for word in sorted(known):
                 f.write(f'{word}\n')
     except:
         pass
@@ -59,7 +59,8 @@ def save_unknown_dict(unknown: dict, file_path: str):
     """
     try:
         with open(file_path, encoding='utf-8', mode='w') as f:
-            for word, translation in unknown.items():
+            for word in sorted(unknown):
+                translation = unknown[word]
                 f.write(f'{word};{translation};{ipa.convert(word)}\n')
     except:
         pass
