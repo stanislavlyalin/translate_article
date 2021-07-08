@@ -2,10 +2,10 @@ import os
 import re
 import webbrowser
 
+import eng_to_ipa as ipa
 import nltk
 from bs4 import BeautifulSoup
 from tqdm import tqdm
-import eng_to_ipa as ipa
 
 
 def load_known_dict(file_path: str):
@@ -156,6 +156,11 @@ if __name__ == '__main__':
             '''
         style_attr = 'style="font-family: verdana; font-size: 10pt; ' \
                      'line-height: 150%; text-align: justify; padding: 30px;"'
+
+        original_url = doc.find('meta', property='og:url')
+        link_to_original = f'<a href="{original_url["content"]}">Link to original page</a><br><br>' \
+            if original_url else ''
+
         content = f'''
             <!DOCTYPE html>
             <html>
@@ -165,6 +170,7 @@ if __name__ == '__main__':
             {style_images}
             </head>
             <body {style_attr}>
+            {link_to_original}
             {node_inner_html}
             </body>
             </html>
