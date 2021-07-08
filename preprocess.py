@@ -146,6 +146,13 @@ if __name__ == '__main__':
     # save prepared page near the original
     translated_file_path = f'{os.path.splitext(file_path)[0]}_translated.html'
     with open(translated_file_path, encoding='utf-8', mode='w') as f:
+        style_images = '''<style type="text/css">
+                img {
+                  max-width: 100%;
+                  height: auto;
+                }
+            </style>
+            '''
         style_attr = 'style="font-family: verdana; font-size: 10pt; ' \
                      'line-height: 150%; text-align: justify; padding: 30px;"'
         content = f'''
@@ -154,8 +161,11 @@ if __name__ == '__main__':
             <head>
             {doc.title}
             <meta charset="utf-8"/>
+            {style_images}
             </head>
-            <body {style_attr}>{node_inner_html}</body>
+            <body {style_attr}>
+            {node_inner_html}
+            </body>
             </html>
             '''
         f.write(content)
