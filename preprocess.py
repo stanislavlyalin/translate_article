@@ -146,7 +146,8 @@ if __name__ == '__main__':
     # save prepared page near the original
     translated_file_path = f'{os.path.splitext(file_path)[0]}_translated.html'
     with open(translated_file_path, encoding='utf-8', mode='w') as f:
-        style_attr = 'style="font-family: verdana; font-size: 10pt"'
+        style_attr = 'style="font-family: verdana; font-size: 10pt; ' \
+                     'line-height: 150%; text-align: justify; padding: 30px;"'
         content = f'''
             <!DOCTYPE html>
             <html>
