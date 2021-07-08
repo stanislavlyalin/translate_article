@@ -95,7 +95,8 @@ if __name__ == '__main__':
     unknown = load_unknown_dict(unknown_filepath)
 
     to_translate = []  # list of words to translate
-    translation_pairs = []
+    translation_pairs = [(word, translation) for word, translation in
+                         unknown.items()]
 
     for i, word in enumerate(tokens):
         # known words, digits and one-letter words are passed
@@ -104,7 +105,6 @@ if __name__ == '__main__':
 
         # unknown words from dict are passed to increase processing speed
         if word in unknown:
-            translation_pairs.append((word, unknown[word]))
             continue
 
         percent = '%2d' % (100 * (i + 1) // token_len)
