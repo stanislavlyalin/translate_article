@@ -66,6 +66,14 @@ def save_unknown_dict(unknown: dict, file_path: str):
         pass
 
 
+def text_nodes(root_node):
+    """
+    Recursive iterate over text nodes
+    """
+    for node in root_node.findChildren(text=True, recursive=True):
+        yield node
+
+
 if __name__ == '__main__':
 
     file_path = input('Enter file path: ')
@@ -80,14 +88,13 @@ if __name__ == '__main__':
         print('Node not found in document. Exit')
 
     node = nodes[0]
-    node_text = str(node.text.lower())
-    node_inner_html = node.decode_contents()
 
-    # select unique tokens by regex
+    # select unique tokens by regex only in text nodes
     tokens = []
-    for token in nltk.regexp_tokenize(node_text, r'[\w-]+'):
-        if token not in tokens:
-            tokens.append(token)
+    for text in text_nodes(node):
+        for token in nltk.regexp_tokenize(text.lower(), r'[\w-]+'):
+            if token not in tokens:
+                tokens.append(token)
     token_len = len(tokens)
 
     known_filepath = 'known.txt'
@@ -115,7 +122,7 @@ if __name__ == '__main__':
             break
         elif ans == 'y':
             known.add(word)
-        else:
+        elif ans == 'n':
             to_translate.append(word)
 
     # print list of words to translate
@@ -137,20 +144,28 @@ if __name__ == '__main__':
     save_unknown_dict(unknown, unknown_filepath)
 
     # replace unknown words to words + translations
+    span_begin, span_end = 'SPAN_BEGIN', 'SPAN_END'
     for en, ru in tqdm(translation_pairs):
         # negative lookup for replace whole words only
         r = re.compile(rf'(?<!\w)({en})(?!\w)', re.IGNORECASE)
         # \1 to keep original case
-        node_inner_html = r.sub(rf'\1 /{ipa.convert(en)}, {ru}/',
-                                node_inner_html)
+        for text in text_nodes(node):
+            if en in text.lower():
+                text_to_replace = r.sub(
+                    rf'\1 {span_begin}/{ipa.convert(en)}, {ru}/{span_end}',
+                    text)
+                text.replace_with(text_to_replace)
 
     # save prepared page near the original
     translated_file_path = f'{os.path.splitext(file_path)[0]}_translated.html'
     with open(translated_file_path, encoding='utf-8', mode='w') as f:
-        style_images = '''<style type="text/css">
+        common_style = '''<style type="text/css">
                 img {
                   max-width: 100%;
                   height: auto;
+                }
+                span.translation {
+                  color: #eee;
                 }
             </style>
             '''
@@ -158,8 +173,12 @@ if __name__ == '__main__':
                      'line-height: 150%; text-align: justify; padding: 30px;"'
 
         original_url = doc.find('meta', property='og:url')
-        link_to_original = f'<a href="{original_url["content"]}">Link to original page</a><br><br>' \
+        link_to_original = f'<a href="{original_url["content"]}">' \
+                           f'Link to original page</a><br><br>' \
             if original_url else ''
+        node_content = node.decode_contents().\
+            replace(span_begin, '<span class="translation">').\
+            replace(span_end, '</span>')
 
         content = f'''
             <!DOCTYPE html>
@@ -167,11 +186,11 @@ if __name__ == '__main__':
             <head>
             {doc.title}
             <meta charset="utf-8"/>
-            {style_images}
+            {common_style}
             </head>
             <body {style_attr}>
             {link_to_original}
-            {node_inner_html}
+            {node_content}
             </body>
             </html>
             '''
