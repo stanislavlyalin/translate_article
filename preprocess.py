@@ -6,6 +6,7 @@ import eng_to_ipa as ipa
 import nltk
 from bs4 import BeautifulSoup
 from tqdm import tqdm
+from translate import translate
 
 
 def load_known_dict(file_path: str):
@@ -129,13 +130,9 @@ if __name__ == '__main__':
     print('Words to translate:')
     print(';'.join(to_translate))
 
-    # launch web-browser with Google Translate page
-    url = 'https://translate.google.com/'
-    params = f'?hl=ru&sl=en&tl=ru&text={"%3B".join(to_translate)}&op=translate'
-    webbrowser.open(url + params)
+    api_key = input('Enter API key: ')
+    translation = [translate(word, api_key) for word in to_translate]
 
-    translation = [token.strip() for token in
-                   input('Enter translated words: ').split(';')]
     for en, ru in zip(to_translate, translation):
         translation_pairs.append((en, ru))
 
