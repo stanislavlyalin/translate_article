@@ -134,6 +134,10 @@ if __name__ == '__main__':
     for en, ru in zip(to_translate, translation):
         translation_pairs.append((en, ru))
 
+    # keep only words presented in current document
+    translation_pairs = list(
+        filter(lambda item: item[0] in tokens, translation_pairs))
+
     save_known_dict(known, known_filepath)
     unknown = {word: translation for word, translation in translation_pairs}
     save_unknown_dict(unknown, unknown_filepath)
