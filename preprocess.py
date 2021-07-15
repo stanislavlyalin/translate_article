@@ -91,7 +91,7 @@ if __name__ == '__main__':
     # select unique tokens by regex only in text nodes
     tokens = []
     for text in text_nodes(node):
-        for token in nltk.regexp_tokenize(text.lower(), r'[\w-]+'):
+        for token in nltk.regexp_tokenize(text.lower(), r"[-\w']+"):
             if token not in tokens:
                 tokens.append(token)
     token_len = len(tokens)
