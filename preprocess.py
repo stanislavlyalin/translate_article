@@ -155,14 +155,14 @@ if __name__ == '__main__':
     for en, ru in zip(to_translate, translation):
         translation_pairs.append((en, ru))
 
-    # keep only words presented in current document
-    translation_pairs = list(
-        filter(lambda item: item[0] in tokens, translation_pairs))
-
     save_known_dict(known, known_filepath)
     unknown = {word: (translation, context[word]) for word, translation in
                translation_pairs}
     save_unknown_dict(unknown, unknown_filepath)
+
+    # keep only words presented in current document
+    translation_pairs = list(
+        filter(lambda item: item[0] in tokens, translation_pairs))
 
     # replace unknown words to words + translations
     span_begin, span_end = 'SPAN_BEGIN', 'SPAN_END'
@@ -202,7 +202,7 @@ if __name__ == '__main__':
             <!DOCTYPE html>
             <html>
             <head>
-            {title}
+            <title>{title}</title>
             <meta charset="utf-8"/>
             {common_style}
             </head>
