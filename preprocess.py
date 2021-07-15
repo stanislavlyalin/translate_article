@@ -101,6 +101,7 @@ if __name__ == '__main__':
     article = Article(url)
     article.download()
     doc = Document(article.html)
+    article_text = article.text
     title = doc.title()
 
     node = BeautifulSoup(doc.get_clean_html(), 'html.parser').find('body')
@@ -112,7 +113,7 @@ if __name__ == '__main__':
         for token in nltk.regexp_tokenize(text.lower(), r"[-\w']+"):
             if token not in tokens:
                 tokens.append(token)
-                context[token] = get_context(token, text)
+                context[token] = get_context(token, article_text)
 
     token_len = len(tokens)
 
