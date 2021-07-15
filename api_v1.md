@@ -1,5 +1,7 @@
 # API v1
 
+## Graphical description
+
 ```
 Client                                              Server
 ------                                              ------
@@ -32,5 +34,36 @@ Client                                              Server
   |                 200, {anki file}                  |
   |<--------------------------------------------------|
   |                                                   |
+
+```
+
+## Client library interface
+
+Example usage:
+
+```python
+
+from translator_py import Translator
+
+translator = Translator()
+translator.login(email, password)
+
+known, unknown, passed = [], [], []
+
+for word in translator.tokens(url):
+  ans = input(f"Do you know word '{word}'?: ").lower()
+
+  if ans == 'stop':
+      break
+  elif ans == 'y':
+      known.add(word)
+  elif ans == 'n':
+      unknown.append(word)
+  else:
+    passed.append(word)
+
+page = translator.prepare(known, unknown, passed, transcriptions=True)
+
+# ... save page and open in browser ...
 
 ```
