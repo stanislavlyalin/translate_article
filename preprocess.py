@@ -108,12 +108,10 @@ if __name__ == '__main__':
 
     # select unique tokens by regex only in text nodes
     tokens = []
-    context = {}
     for text in text_nodes(node):
         for token in nltk.regexp_tokenize(text.lower(), r"[-\w']+"):
             if token not in tokens:
                 tokens.append(token)
-                context[token] = get_context(token, article_text)
 
     token_len = len(tokens)
 
@@ -125,6 +123,7 @@ if __name__ == '__main__':
     to_translate = []  # list of words to translate
     translation_pairs = [(word, translation) for word, translation in
                          unknown.items()]
+    context = {}
 
     for i, word in enumerate(tokens):
         # known words, digits and one-letter words are passed
@@ -144,6 +143,7 @@ if __name__ == '__main__':
             known.add(word)
         elif ans == 'n':
             to_translate.append(word)
+            context[word] = get_context(word, article_text)
 
     # print list of words to translate
     print('Words to translate:')
