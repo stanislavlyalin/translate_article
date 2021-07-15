@@ -46,7 +46,7 @@ Example usage:
 from translator_py import Translator
 
 translator = Translator()
-translator.login(email, password)
+logged_in = translator.login(email, password)
 
 known, unknown, passed = [], [], []
 
@@ -62,8 +62,9 @@ for word in translator.tokens(url):
   else:
     passed.append(word)
 
-page = translator.prepare(known, unknown, passed, transcriptions=True)
+if logged_in:
+  page = translator.prepare(known, unknown, passed, transcriptions=True)
 
-# ... save page and open in browser ...
+  # ... save page and open in browser ...
 
 ```
