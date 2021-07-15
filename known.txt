@@ -532,6 +532,7 @@ don
 done
 doors
 double
+double-spending
 double-voting
 down
 drive
@@ -573,6 +574,7 @@ empty
 enable
 encode
 encoded
+encyclopedia
 end
 ending
 energy
@@ -608,6 +610,7 @@ executes
 executing
 execution
 exist
+existed
 existing
 expect
 expects
@@ -1139,6 +1142,7 @@ namespaces
 nathaniel
 native
 natural
+navigation
 near
 nearly
 necessary
@@ -1541,6 +1545,7 @@ score
 scoring
 scott
 sdk
+search
 seckey
 second
 seconds
@@ -1925,6 +1930,7 @@ wide
 widely
 wider
 wiki
+wikipedia
 will
 win
 winner

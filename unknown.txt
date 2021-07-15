@@ -16,6 +16,7 @@ actively;активно;ˈæktɪvli
 actor;актер;ˈæktər
 actors;актеры;ˈæktərz
 acts;действует;ækts
+adhere;придерживаться;əˈdhɪr
 adjacent;соседний;əˈʤeɪsənt
 adoption;принятие;əˈdɑpʃən
 advancements;достижения;ədˈvænsmənts
@@ -28,6 +29,7 @@ almost;почти;ˈɔlˌmoʊst
 along;вдоль;əˈlɔŋ
 alter;изменить;ˈɔltər
 alteration;изменение;ˌɔltərˈeɪʃən
+altered;изменен;ˈɔltərd
 altering;изменение;ˈɔltərɪŋ
 although;хотя;ˌɔlˈðoʊ
 ambitious;амбициозный;æmˈbɪʃəs
@@ -130,6 +132,7 @@ coindesk;Coindesk;coindesk*
 coined;выдуманный;kɔɪnd
 collateral;залог;kəˈlætərəl
 collecte;собирать;collecte*
+collectively;коллективно;kəˈlɛktɪvli
 comas;кома;ˈkoʊməz
 coming;приходящий;ˈkəmɪŋ
 commodity;товар;kəˈmɑdəti
@@ -202,6 +205,7 @@ desugaring;обессахаривание;desugaring*
 dictate;диктовать;ˈdɪkˌteɪt
 dining;обедать;ˈdaɪnɪŋ
 directory;каталог;dɪˈrɛktəri
+disambiguation;устранение неоднозначности;disambiguation*
 discards;отбрасывает;dɪˈskɑrdz
 discharge;увольнять;ˈdɪsˌʧɑrʤ
 discourage;обескураживать;dɪˈskərɪʤ
@@ -269,6 +273,7 @@ exactly;точно;ɪgˈzæktli
 except;Кроме;ɪkˈsɛpt
 exclamation;восклицание;ˌɛkskləˈmeɪʃən
 exclusive;эксклюзивный;ɪkˈsklusɪv
+exemplify;служить примером;ɪgˈzɛmpləˌfaɪ
 existence;существование;ɪgˈzɪstəns
 expansion;расширение;ɪkˈspænʧən
 explain;объяснять;ɪkˈspleɪn
@@ -412,6 +417,8 @@ intermediaries;посредники;ˌɪnərˈmidiˌɛriz
 intermediate;средний;ˌɪnərˈmidiɪt
 internally;внутри;ˌɪnˈtərnəli
 intuitions;интуиция;intuitions*
+invented;изобретенный;ˌɪnˈvɛntɪd
+invention;изобретение;ˌɪnˈvɛnʃən
 investment;вложение;ˌɪnˈvɛstmənt
 investments;инвестиции;ˌɪnˈvɛstmənts
 invoke;вызывать;ˌɪnˈvoʊk
@@ -594,6 +601,7 @@ propositions;предложения;ˌprɑpəˈzɪʃənz
 prospectors;старатели;ˈprɔˌspɛktərz
 prove;доказывать;pruv
 proven;доказано;ˈpruvən
+proves;доказывает;pruvz
 provide;предоставлять;prəˈvaɪd
 pseudonymous;псевдоним;pseudonymous*
 pseudonymously;псевдонимно;pseudonymously*
@@ -627,6 +635,7 @@ regard;внимание;rɪˈgɑrd
 regarding;касательно;rɪˈgɑrdɪŋ
 regulates;регулирует;ˈrɛgjəˌleɪts
 regulatory;регулирующий;ˈrɛgjələˌtɔri
+reinforcing;усиление;ˌriɪnˈfɔrsɪŋ
 reinvoke;повторно вызывать;reinvoke*
 related;связанные с;rɪˈleɪtɪd
 relaying;ретрансляция;ˈriˌleɪɪŋ
@@ -640,11 +649,13 @@ representation;представление;ˌrɛprəzɛnˈteɪʃən
 requester;запрашивающий;rɪkˈwɛstər
 reseller;торговый посредник;riˈsɛlər
 resembles;напоминает;rɪˈzɛmbəlz
+resistant;стойкий;rɪˈzɪstənt
 responsible;ответственный;riˈspɑnsəbəl
 rest;отдых;rɛst
 restructure;реструктуризация;riˈstrəkʧər
 retaining;сохранение;rɪˈteɪnɪŋ
 retrieving;получение;riˈtrivɪŋ
+retroactively;задним числом;ˌrɛtroʊˈæktɪvli
 rev;rev;rɛv
 revocation;отзыв;ˌrɛvəˈkeɪʃən
 revokable;отзывный;revokable*
@@ -791,9 +802,11 @@ trial;пробный;traɪəl
 trial-and-error;методом проб и ошибок;trial-and-error*
 tricky;сложный;ˈtrɪki
 trust;доверять;trəst
+trusted;доверенный;ˈtrəstɪd
 turn;повернуть;tərn
 turns;повороты;tərnz
 unable;не в состоянии;əˈneɪbəl
+unalterable;неизменный;əˈnɔltərəbəl
 unbonding;разобщение;unbonding*
 unclear;неясно;ənˈklɪr
 underlying;лежащий в основе;ˌəndərˈlaɪɪŋ
