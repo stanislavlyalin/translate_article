@@ -5,7 +5,10 @@ import webbrowser
 import eng_to_ipa as ipa
 import nltk
 from bs4 import BeautifulSoup
+from newspaper import Article
+from readability import Document
 from tqdm import tqdm
+
 from translate import translate
 
 
@@ -77,18 +80,13 @@ def text_nodes(root_node):
 
 if __name__ == '__main__':
 
-    file_path = input('Enter file path: ')
-    with open(file_path, encoding='utf-8') as f:
-        content = f.read()
-    doc = BeautifulSoup(content, 'html.parser')
+    url = input('Enter page URL: ')
+    article = Article(url)
+    article.download()
+    doc = Document(article.html)
+    title = doc.title()
 
-    selector = input('Enter CSS selector for page main content: ')
-
-    nodes = doc.select(selector)
-    if not nodes:
-        print('Node not found in document. Exit')
-
-    node = nodes[0]
+    node = BeautifulSoup(doc.get_clean_html(), 'html.parser').find('body')
 
     # select unique tokens by regex only in text nodes
     tokens = []
@@ -154,7 +152,7 @@ if __name__ == '__main__':
                 text.replace_with(text_to_replace)
 
     # save prepared page near the original
-    translated_file_path = f'{os.path.splitext(file_path)[0]}_translated.html'
+    translated_file_path = f'{title}.html'
     with open(translated_file_path, encoding='utf-8', mode='w') as f:
         common_style = '''<style type="text/css">
                 img {
@@ -168,20 +166,17 @@ if __name__ == '__main__':
             '''
         style_attr = 'style="font-family: verdana; font-size: 10pt; ' \
                      'line-height: 150%; text-align: justify; padding: 30px;"'
-
-        original_url = doc.find('meta', property='og:url')
-        link_to_original = f'<a href="{original_url["content"]}">' \
-                           f'Link to original page</a><br><br>' \
-            if original_url else ''
-        node_content = node.decode_contents().\
-            replace(span_begin, '<span class="translation">').\
+        link_to_original = f'<a href="{url}">' \
+                           f'Link to original page</a><br><br>'
+        node_content = node.decode_contents(). \
+            replace(span_begin, '<span class="translation">'). \
             replace(span_end, '</span>')
 
         content = f'''
             <!DOCTYPE html>
             <html>
             <head>
-            {doc.title}
+            {title}
             <meta charset="utf-8"/>
             {common_style}
             </head>
