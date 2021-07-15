@@ -89,9 +89,10 @@ def get_context(word: str, text: str):
     # {word} - desired word for context extraction
     # [A-Za-z,:\- ]* - letter any case, comma, colons, dashes, spaces 0 or more
     # [?!\.]? - punctuation or none if end of sentence
-    r = re.compile(rf'[?!.]?([A-Za-z,:\- ]*{word}[A-Za-z,:\- ]*[?!.]?)')
-    m = re.findall(r, text)
-    return m[0].strip() if m else ''
+    r = re.compile(rf'[?!.]?([A-Za-z,:\- ]*{word}[A-Za-z,:\- ]*[?!.]?)',
+                   re.IGNORECASE)
+    m = re.search(r, text)
+    return m[1].strip() if m else ''
 
 
 if __name__ == '__main__':
