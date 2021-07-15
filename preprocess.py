@@ -1,4 +1,3 @@
-import os
 import re
 import webbrowser
 
@@ -36,7 +35,7 @@ def load_unknown_dict(file_path: str):
 
         unknown = {}
         for x in content:
-            word, translation, transcription = x.strip().split(';')
+            word, translation, transcription, context = x.strip().split(';')
             unknown[word] = translation
         return unknown
     except:
@@ -64,8 +63,8 @@ def save_unknown_dict(unknown: dict, file_path: str):
     try:
         with open(file_path, encoding='utf-8', mode='w') as f:
             for word in sorted(unknown):
-                translation = unknown[word]
-                f.write(f'{word};{translation};{ipa.convert(word)}\n')
+                translation, context = unknown[word]
+                f.write(f'{word};{translation};{ipa.convert(word)};{context}\n')
     except:
         pass
 
@@ -76,6 +75,23 @@ def text_nodes(root_node):
     """
     for node in root_node.findChildren(text=True, recursive=True):
         yield node
+
+
+def get_context(word: str, text: str):
+    """
+    Get word context (sentence) in the given text
+    :param word: word
+    :param text: text from which context will be extracted
+    :return: context (sentence) or empty string
+    """
+    # [?!\.]? - punctuation or none if begin of sentence
+    # [A-Za-z,:\- ]* - letter any case, comma, colons, dashes, spaces 0 or more
+    # {word} - desired word for context extraction
+    # [A-Za-z,:\- ]* - letter any case, comma, colons, dashes, spaces 0 or more
+    # [?!\.]? - punctuation or none if end of sentence
+    r = re.compile(rf'[?!.]?([A-Za-z,:\- ]*{word}[A-Za-z,:\- ]*[?!.]?)')
+    m = re.findall(r, text)
+    return m[0].strip() if m else ''
 
 
 if __name__ == '__main__':
@@ -90,10 +106,13 @@ if __name__ == '__main__':
 
     # select unique tokens by regex only in text nodes
     tokens = []
+    context = {}
     for text in text_nodes(node):
         for token in nltk.regexp_tokenize(text.lower(), r"[-\w']+"):
             if token not in tokens:
                 tokens.append(token)
+                context[token] = get_context(token, text)
+
     token_len = len(tokens)
 
     known_filepath = 'known.txt'
@@ -139,7 +158,8 @@ if __name__ == '__main__':
         filter(lambda item: item[0] in tokens, translation_pairs))
 
     save_known_dict(known, known_filepath)
-    unknown = {word: translation for word, translation in translation_pairs}
+    unknown = {word: (translation, context[word]) for word, translation in
+               translation_pairs}
     save_unknown_dict(unknown, unknown_filepath)
 
     # replace unknown words to words + translations
