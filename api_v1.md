@@ -20,14 +20,14 @@ Client                                              Server
   |      [POST] /prepare,                             |  # prepare article - insert transcriptions/translations
   |        {[known], [unknown], [pass],               |
   |         transcriptions: bool [opt, true],         |
-  |         api_key: str}                             |
+  |         access_token: str}                        |
   |-------------------------------------------------->|
   |                 200, {html: str}                  |
   |<--------------------------------------------------|
   |                                                   |
   |                                                   |
   |                                                   |
-  |             [G] /anki {api_key: str}              |  # prepare data for Anki
+  |             [G] /anki {access_token: str}         |  # prepare data for Anki
   |-------------------------------------------------->|
   |                 200, {anki file}                  |
   |<--------------------------------------------------|
