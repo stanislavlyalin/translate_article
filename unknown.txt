@@ -1,870 +1,870 @@
-abides;пребывает;əˈbaɪdz
-above;выше;əˈbəv
-abuse;злоупотреблять;əˈbjuz
-accomplish;выполнить;əˈkɑmplɪʃ
-accountability;ответственность;əˈkaʊntəˌbɪlɪti
-accounting;бухгалтерский учет;əˈkaʊnɪŋ
-achieve;достигать;əˈʧiv
-achieved;достигнуто;əˈʧivd
-ack;подтверждать;æk
-acknowledgement;подтверждение;ækˈnɑlɪʤmənt
-acknowledgment;подтверждение;ækˈnɑlɪʤmənt
-acquiring;приобретение;əkˈwaɪərɪŋ
-across;через;əˈkrɔs
-act;действовать;ækt
-actively;активно;ˈæktɪvli
-actor;актер;ˈæktər
-actors;актеры;ˈæktərz
-acts;действует;ækts
-adhere;придерживаться;əˈdhɪr
-adjacent;соседний;əˈʤeɪsənt
-adoption;принятие;əˈdɑpʃən
-advancements;достижения;ədˈvænsmənts
-against;против;əˈgɛnst
-ailing;больной;ˈeɪlɪŋ
-aim;цель;eɪm
-akin;сродни;ˈeɪkɪn
-allotted;выделенный;əˈlɑtɪd
-almost;почти;ˈɔlˌmoʊst
-along;вдоль;əˈlɔŋ
-alter;изменить;ˈɔltər
-alteration;изменение;ˌɔltərˈeɪʃən
-altered;изменен;ˈɔltərd
-altering;изменение;ˈɔltərɪŋ
-although;хотя;ˌɔlˈðoʊ
-ambitious;амбициозный;æmˈbɪʃəs
-ameliorate;улучшать;əˈmiljərˌeɪt
-among;среди;əˈməŋ
-amongst;среди;əˈməŋst
-amount;количество;əˈmaʊnt
-antminer;Antminer;antminer*
-any;любой;ˈɛni
-anyone;кто-нибудь;ˈɛniˌwən
-apart;отдельно;əˈpɑrt
-apologized;извинился;əˈpɑləˌʤaɪzd
-appeal;обращаться;əˈpil
-appear;появляться;əˈpɪr
-approach;подход;əˈproʊʧ
-appropriately;соответственно;əˈproʊpriɪtli
-arbitrary;произвольный;ˈɑrbɪˌtrɛri
-archiving;архивирование;archiving*
-aren;радость;ˈɑrən
-argue;спорить;ˈɑrgju
-around;вокруг;əraʊnd
-art;Изобразительное искусство;ɑrt
-artwork;произведение искусства;ˈɑrtˌwərk
-asics;asics;ˈæzɪks
-aside;в стороне;əˈsaɪd
-asset;актив;ˈæˌsɛt
-assets;ресурсы;ˈæˌsɛts
-assume;предполагать;əˈsum
-assumption;предположение;əˈsəmpʃən
-assure;гарантировать;əˈʃʊr
-asterisk;звездочка;ˈæstərɪsk
-attenuating;ослабление;attenuating*
-attenuation;затухание;attenuation*
-attenuators;аттенюаторы;attenuators*
-attest;засвидетельствовать;əˈtɛst
-attractors;аттракторы;attractors*
-authenticity;подлинность;ˌɔθənˈtɪsɪti
-authority;власть;əˈθɔrəti
-autonomous;автономный;ɔˈtɑnəməs
-avoid;избегать;əˈvɔɪd
-awaited;ждал;əˈweɪtɪd
-awarded;награжден;əˈwɔrdɪd
-awards;награды;əˈwɔrdz
-away;далеко;əˈweɪ
-axiomatic;аксиоматический;ˌæksiəˈmætɪk
-banned;запрещен;bænd
-barrier;барьер;ˈbɛriər
-basically;по сути;ˈbeɪsɪkli
-become;стали;bɪˈkəm
-becomes;становится;bɪˈkəmz
-behalf;от имени;bɪˈhæf
-behave;вести себя;bɪˈheɪv
-behaves;ведет себя;bɪˈheɪvz
-belief;вера;bɪˈlif
-below;ниже;bɪˈloʊ
-benchmark;ориентир;ˈbɛnʧˌmɑrk
-benefits;преимущества;ˈbɛnəfɪts
-bet;держать пари;bɛt
-betting;делать ставки;ˈbɛtɪŋ
-beware;остерегаться;bɪˈwɛr
-bid;делать ставку;bɪd
-bite;кусать;baɪt
-bitmain;bitmain;bitmain*
-bloated;раздутый;ˈbloʊtɪd
-block-rewards;награды за блок;block-rewards*
-blockchain-related;связанные с блокчейном;blockchain-related*
-bond;связь;bɑnd
-bonded;связанный;ˈbɑndɪd
-bonding;связь;ˈbɑndɪŋ
-borrow;одолжить;ˈbɑˌroʊ
-breaches;нарушения;ˈbriʧɪz
-bribery;взяточничество;ˈbraɪbəri
-bring;приносить;brɪŋ
-broadcast;транслировать;ˈbrɔdˌkæst
-broadcasting;вещание;ˈbrɔdˌkæstɪŋ
-broader;шире;ˈbrɔdər
-built;построен;bɪlt
-burdened;обремененный;ˈbərdənd
-bvjun;Bvjun;bvjun*
-by-proposition;побочное предложение;by-proposition*
-byzantine;византийский;ˈbɪzənˌtin
-camouflage;камуфляж;ˈkæməˌflɑʒ
-care;забота;kɛr
-carried;унесенный;ˈkɛrid
-carry;нести;ˈkɛri
-cash-grab;получение наличных;cash-grab*
-censorship;цензура;ˈsɛnsərˌʃɪp
-censorship-resistant;устойчивый к цензуре;censorship-resistant*
-certain;определенный;ˈsərtən
-chargeback;возвратный платеж;chargeback*
-chips;чипсы;ʧɪps
-chunks;куски;ʧəŋks
-circuits;схемы;ˈsərkəts
-claim;требовать;kleɪm
-claims;претензии;kleɪmz
-clause;пункт;klɔz
-coarse-grained;крупнозернистый;coarse-grained*
-coat;Пальто;koʊt
-coindesk;Coindesk;coindesk*
-coined;выдуманный;kɔɪnd
-collateral;залог;kəˈlætərəl
-collecte;собирать;collecte*
-collectively;коллективно;kəˈlɛktɪvli
-comas;кома;ˈkoʊməz
-coming;приходящий;ˈkəmɪŋ
-commodity;товар;kəˈmɑdəti
-comparatively;сравнительно;kəmˈpærətɪvˌli
-compete;конкурировать;kəmˈpit
-competing;конкурирующий;kəmˈpitɪŋ
-competition;соревнование;ˌkɑmpəˈtɪʃən
-competitive;конкурентоспособный;kəmˈpɛtɪtɪv
-composed;составлен;kəmˈpoʊzd
-computational;вычислительный;ˌkɑmpjuˈteɪʃənəl
-compute-intensive;ресурсоемкий;compute-intensive*
-concept;концепция;ˈkɑnsɛpt
-concurrently;одновременно;kənˈkərəntli
-confessed;признался;kənˈfɛst
-confidence;уверенность;ˈkɑnfədɛns
-confirmations;подтверждения;ˌkɑnfərˈmeɪʃənz
-confusion;спутанность сознания;kənfˈjuʒən
-conjunctive;соединительный;conjunctive*
-connective;соединительный;kəˈnɛktɪv
-connectives;связки;connectives*
-connectivity;возможность подключения;kənɛkˈtɪvɪti
-consensusstork;консенсус;consensusstork*
-consequence;последствие;ˈkɑnsəkwəns
-consider;рассмотреть возможность;kənˈsɪdər
-considered;считается;kənˈsɪdərd
-consistency;последовательность;kənˈsɪstənsi
-consistent;последовательный;kənˈsɪstənt
-construction;строительство;kənˈstrəkʃən
-consume;потреблять;kənˈsum
-consumes;потребляет;kənˈsumz
-consumption;потребление;kənˈsəmʃən
-continuation;продолжение;kənˌtɪnjuˈeɪʃən
-continued;продолжение;kənˈtɪnjud
-convenient;удобный;kənˈvinjənt
-converge;сходиться;kənˈvərʤ
-convergence;конвергенция;kənˈvərʤəns
-convergent;сходящийся;kənˈvərʤənt
-coop;курятник;kup
-corresponds;соответствует;ˌkɔrəˈspɑndz
-cost-benefit;затрат и выгод;cost-benefit*
-couples;пары;ˈkəpəlz
-coveted;желанный;ˈkəvətɪd
-credit;кредит;ˈkrɛdɪt
-crow;ворона;kroʊ
-cryptofex;криптофекс;cryptofex*
-cryptozombies;криптозомби;cryptozombies*
-cunningly;хитро;cunningly*
-currency;валюта;ˈkərənsi
-cypherpunk;шифропанк;cypherpunk*
-dag;даг;dæg
-decide;решать;ˌdɪˈsaɪd
-decided;решил;ˌdɪˈsaɪdɪd
-decides;решает;ˌdɪˈsaɪdz
-decreases;уменьшается;ˈdiˌkrisɪz
-decrypting;расшифровка;decrypting*
-defence;защита;dɪˈfɛns
-defi;defi;defi*
-definitely;определенно;ˈdɛfənətli
-demand;требовать;dɪˈmænd
-denotation;обозначение;denotation*
-denote;обозначать;dɪˈnoʊt
-denoted;обозначен;dɪˈnoʊtəd
-denotes;обозначает;dɪˈnoʊts
-deposit;депозит;dɪˈpɑzət
-deposit-as-collateral;залог в качестве залога;deposit-as-collateral*
-deposited;депонированный;dɪˈpɑzətəd
-deposits;депозиты;dɪˈpɑzəts
-desire;желание;dɪˈzaɪər
-desugaring;обессахаривание;desugaring*
-dictate;диктовать;ˈdɪkˌteɪt
-dining;обедать;ˈdaɪnɪŋ
-directory;каталог;dɪˈrɛktəri
-disambiguation;устранение неоднозначности;disambiguation*
-discards;отбрасывает;dɪˈskɑrdz
-discharge;увольнять;ˈdɪsˌʧɑrʤ
-discourage;обескураживать;dɪˈskərɪʤ
-discouraging;обескураживающий;dɪˈskərɪʤɪŋ
-dishonest;нечестный;dɪˈsɑnəst
-disincentivise;сдерживать;disincentivise*
-dispatched;отправлен;dɪˈspæʧt
-dispensed;выдан;dɪˈspɛnst
-dispersed;рассредоточенный;dɪˈspərst
-disrupt;нарушить;dɪsˈrəpt
-dissuade;отговорить;dɪsˈweɪd
-doles;пособия по безработице;doʊlz
-domain;домен;doʊˈmeɪn
-double-bang;двойной взрыв;double-bang*
-double-spend;двойная трата;double-spend*
-draft;черновой вариант;dræft
-drawn;нарисованный;drɔn
-dubbed;дублированный;dəbd
-due;должное;du
-earn;зарабатывать;ərn
-ease;простота;iz
-echoing;эхом;ˈɛkoʊɪŋ
-economies;экономика;ɪˈkɑnəmiz
-editorial;редакционная;ˌɛdəˈtɔriəl
-effort;усилие;ˈɛfərt
-efine;efine;efine*
-either;либо;ˈiðər
-elections;выборы;ɪˈlɛkʃənz
-eliminate;Устранить;ɪˈlɪməˌneɪt
-emerged;появился;ˈimərʤd
-emphasize;подчеркнуть;ˈɛmfəˌsaɪz
-encapsulate;инкапсулировать;ɛnˈkæpsəˌleɪt
-encrypting;шифрование;encrypting*
-encryption;шифрование;ɛnˈkrɪpʃən
-endeavors;усилия;ɪnˈdɛvərz
-enforce;принуждать;ɛnˈfɔrs
-enforcement;принуждение;ɛnˈfɔrsmənt
-engaged;увлеченный;ɪnˈgeɪʤd
-enough;достаточно;ɪˈnəf
-ensure;гарантировать;ɪnˈʃʊr
-enterprise;предприятие;ˈɛnərˌpraɪz
-enterprise-class;корпоративный класс;enterprise-class*
-enticing;соблазнительный;ɛnˈtaɪsɪŋ
-entire;весь;ɪnˈtaɪər
-entities;сущности;ˈɛntɪtiz
-entity;юридическое лицо;ˈɛntɪti
-entries;записи;ˈɛntriz
-entry;Вход;ˈɛntri
-environmental;относящийся к окружающей среде;ɪnˌvaɪrənˈmɛnəl
-equipped;оборудованный;ɪkˈwɪpt
-equivocation;двусмысленность;ɪkwɪvəˈkeɪʃən
-eradicate;искоренить;ɪˈrædəˌkeɪt
-escrow-like;подобный условному депонированию;escrow-like*
-essentially;по сути;ɛˈsɛnʃəli
-established;учредил;ɪˈstæblɪʃt
-establishes;устанавливает;ɪˈstæblɪʃɪz
-ethash;Ethash;ethash*
-ether;эфир;ˈiθər
-eventually;в конце концов;ɪˈvɛnʧəwəli
-ever;Когда-либо;ˈɛvər
-everyone;все;ˈɛvriˌwən
-everything;все;ˈɛvriˌθɪŋ
-evidence;свидетельство;ˈɛvədəns
-exactly;точно;ɪgˈzæktli
-except;Кроме;ɪkˈsɛpt
-exclamation;восклицание;ˌɛkskləˈmeɪʃən
-exclusive;эксклюзивный;ɪkˈsklusɪv
-exemplify;служить примером;ɪgˈzɛmpləˌfaɪ
-existence;существование;ɪgˈzɪstəns
-expansion;расширение;ɪkˈspænʧən
-explain;объяснять;ɪkˈspleɪn
-explained;объяснил;ɪkˈspleɪnd
-explains;объясняет;ɪkˈspleɪnz
-exploits;подвиги;ˈɛkˌsplɔɪts
-explosion;взрыв;ɪkˈsploʊʒən
-exposed;незащищенный;ɪkˈspoʊzd
-exposes;разоблачает;ɪkˈspoʊzɪz
-expressing;выражая;ɪkˈsprɛsɪŋ
-extra;дополнительный;ˈɛkstrə
-facet;грань;ˈfæsət
-facets;грани;ˈfæsəts
-facilitating;облегчение;fəˈsɪləˌteɪtɪŋ
-faking;притворство;ˈfeɪkɪŋ
-fame;слава;feɪm
-familiar;знакомый;fəˈmɪljər
-far;далеко;fɑr
-fault;вина;fɔlt
-faulty;неисправный;ˈfɔlti
-favour;услуга;ˈfeɪvər
-favouring;отдавая предпочтение;favouring*
-fee;платеж;fi
-fees;сборы;fiz
-fewer;меньше;fjuər
-filemaker;файловый менеджер;filemaker*
-finalise;завершить;finalise*
-finality;окончательность;faɪˈnæləti
-fine-grained;мелкозернистый;fine-grained*
-fined;оштрафован;faɪnd
-firewall;брандмауэр;ˈfaɪrwɑl
-foe;враг;foʊ
-fold;складывать;foʊld
-folded;сложенный;ˈfoʊldɪd
-fool;дурак;ful
-footprint;след;ˈfʊtˌprɪnt
-forces;силы;ˈfɔrsɪz
-foregoing;вышеизложенное;fɔrˈgoʊɪŋ
-forge;ковать;fɔrʤ
-forges;кузницы;ˈfɔrʤɪz
-fork-choice;выбор вилки;fork-choice*
-formals;формальные;formals*
-formed;сформированный;fɔrmd
-former;бывший;ˈfɔrmər
-formulae;формулы;formulae*
-fors;за;fərz
-forthcoming;предстоящий;ˈfɔrθˈkəmɪŋ
-forwarded;отправлено;ˈfɔrwərdɪd
-forwarder;экспедитор;ˈfɔrwərdər
-forwarders;экспедиторы;ˈfɔrwərdərz
-forwarding;пересылка;ˈfɔrwərdɪŋ
-forwards;вперед;ˈfɔrwərdz
-foundation;фундамент;faʊnˈdeɪʃən
-fraud;мошенничество;frɔd
-fraudulent;мошеннический;ˈfrɔʤələnt
-freely;свободно;ˈfrili
-friction;трение;ˈfrɪkʃən
-fueled;заправлен;fjuəld
-fulfilled;выполнено;fʊlˈfɪld
-fulfillment;исполнение;fʊlˈfɪlmənt
-funds;фонды;fəndz
-further;способствовать;ˈfərðər
-furthermore;более того;ˈfərðərˌmɔr
-gain;прирост;geɪn
-gained;получил;geɪnd
-gains;прибыль;geɪnz
-gambling;играть в азартные игры;ˈgæmbəlɪŋ
-gathered;собрал;ˈgæðərd
-generalize;обобщать;ˈʤɛnərəˌlaɪz
-genesis;происхождение;ˈʤɛnəsəs
-genuine;подлинный;ˈʤɛnjuˌaɪn
-giant;гигант;ʤaɪənt
-gitter;мерзкий;ˈgɪtər
-giving;давая;ˈgɪvɪŋ
-globe;глобус;gloʊb
-governed;управляемый;ˈgəvərnd
-graced;украсил;greɪst
-grade;оценка;greɪd
-gradually;постепенно;ˈgræʤuəli
-grant;даровать;grænt
-greatly;сильно;ˈgreɪtli
-greener;зеленее;ˈgrinər
-growing;растущий;groʊɪŋ
-grows;растет;groʊz
-growth;рост;groʊθ
-guarding;охрана;ˈgɑrdɪŋ
-guess;угадать;gɛs
-guiding;руководство;ˈgaɪdɪŋ
-halving;уменьшение вдвое;ˈhævɪŋ
-handful;горсть;ˈhændˌfʊl
-hang;вешать;hæŋ
-hard-fork;хард-форк;hard-fork*
-harnesses;жгуты;ˈhɑrnəsɪz
-harnessing;использование;ˈhɑrnəsɪŋ
-hashrate;хешрейт;hashrate*
-having;имея;ˈhævɪŋ
-heat;нагревать;hit
-hefty;здоровенный;ˈhɛfti
-heirs;наследники;ɛrz
-held;проводится;hɛld
-hence;следовательно;hɛns
-hit;ударить;hɪt
-hobbyist;любитель;ˈhɑbiɪst
-hodlers;ходлеры;hodlers*
-hola;Hola;ˈhoʊlə
-hooked;зацепил;hʊkt
-hostile;враждебный;ˈhɑstəl
-however;тем не мение;ˌhaʊˈɛvər
-identifiable;идентифицируемый;aɪˈdɛntəˌfaɪəbəl
-identities;идентичности;aɪˈdɛntɪˌtiz
-identity;личность;aɪˈdɛntəˌti
-immediately;немедленно;ˌɪˈmiˌdiətli
-immutability;неизменность;immutability*
-immutable;неизменный;ˌɪmˈjutəbəl
-impact;влияние;ˌɪmˈpækt
-impose;навязывать;ˌɪmˈpoʊz
-improving;улучшение;ˌɪmˈpruvɪŋ
-inability;неспособность;ˌɪnəˈbɪlɪti
-incentive;стимул;ˌɪnˈsɛnɪv
-incentives;стимулы;ˌɪnˈsɪnɪvz
-incentivise;стимулировать;incentivise*
-incentivised;стимулированный;incentivised*
-inclusion;включение;ˌɪnˈkluʒən
-inconsistencies;несоответствия;ˌɪŋˈkɑnsɪˌstɛnsiz
-incorporate;включать;ˌɪnˈkɔrpərˌeɪt
-incorporating;включение;ˌɪnˈkɔrpərˌeɪtɪŋ
-incorruptible;неподкупный;incorruptible*
-inevitably;неизбежно;ˌɪˈnɛvətəbli
-inflation;инфляция;ˌɪnˈfleɪʃən
-ingredients;ингредиенты;ˌɪnˈgridiənts
-initially;первоначально;ˌɪˈnɪʃəli
-ins;ins;ˈaɪˈɛˈnɛs
-inspecting;осмотр;ˌɪnˈspɛktɪŋ
-instant;мгновенное;ˈɪnstənt
-insurance-related;связанный со страхованием;insurance-related*
-integrity;честность;ˌɪnˈtɛgrəti
-intended;намеревался;ˌɪnˈtɛndɪd
-intercept;перехватить;ˌɪnərˈsɛpt
-interfered;вмешался;ˌɪnərˈfɪrd
-intermediaries;посредники;ˌɪnərˈmidiˌɛriz
-intermediate;средний;ˌɪnərˈmidiɪt
-internally;внутри;ˌɪnˈtərnəli
-intuitions;интуиция;intuitions*
-invented;изобретенный;ˌɪnˈvɛntɪd
-invention;изобретение;ˌɪnˈvɛnʃən
-investment;вложение;ˌɪnˈvɛstmənt
-investments;инвестиции;ˌɪnˈvɛstmənts
-invoke;вызывать;ˌɪnˈvoʊk
-invoked;призванный;ˌɪnˈvoʊkt
-involvement;участие;ˌɪnˈvɑlvmənt
-isn;разве;isn*
-issuance;выдача;ˈɪʃuəns
-issuers;эмитенты;ˈɪʃuərz
-itself;сам;ˌɪtˈsɛlf
-itthis;это;itthis*
-journalistic;журналистский;ˌʤərnəˈlɪstɪk
-jury;жюри;ˈʤʊri
-justification;оправдание;ˌʤəstəfəˈkeɪʃən
-justified;оправданный;ˈʤəstəˌfaɪd
-keeping;сохранение;ˈkipɪŋ
-kept;хранится;kɛpt
-lack;недостаток;læk
-largely;во многом;ˈlɑrʤli
-laszlo;Ласло;ˈlæzloʊ
-latency;задержка;ˈleɪtənsi
-laundering;отмывание;ˈlɔndərɪŋ
-law;закон;lɔ
-lawbreakers;нарушители закона;ˈlɔˌbreɪkərz
-leading;ведущий;ˈlidɪŋ
-leads;ведет;lidz
-least;наименее;list
-ledger;бухгалтерская книга;ˈlɛʤər
-level--but;уровень - но;level--but*
-likewise;так же;ˈlaɪkˌwaɪz
-lindy;Линди;ˈlɪndi
-liveness;живость;liveness*
-lmdb;lmdb;lmdb*
-loan;заем;loʊn
-logback;вход в систему;logback*
-long-term;долгосрочный;ˈlɔŋˈtərm
-longer;дольше;ˈlɔŋgər
-longevity;долголетие;lɔnˈʤɛvəti
-looked;смотрел;lʊkt
-loom;ткацкий станок;lum
-lot;много;lɔt
-lots;лоты;lɑts
-lower;ниже;loʊər
-mainnet;основная сеть;mainnet*
-maintain;поддерживать;meɪnˈteɪn
-maintaining;поддержание;meɪnˈteɪnɪŋ
-maintains;поддерживает;meɪnˈteɪnz
-majority;большинство;məˈʤɔrəti
-manage;управлять;ˈmænɪʤ
-manner;манера;ˈmænər
-masternodes;мастерноды;masternodes*
-maximally-consistent;максимально последовательный;maximally-consistent*
-meaning;имея в виду;ˈminɪŋ
-meant;имел в виду;mɛnt
-mentioned;упомянул;ˈmɛnʃənd
-merely;просто;ˈmɪrli
-metcalfe;Metcalfe;ˈmɛtkəlf
-mine;мой;maɪn
-mined;добыт;maɪnd
-miner;шахтер;ˈmaɪnər
-misbehaving;плохое поведение;ˌmɪsbəˈheɪvɪŋ
-misbehaviour;дурное поведение;misbehaviour*
-misleading;вводящий в заблуждение;mɪsˈlidɪŋ
-misperceptions;заблуждения;mɪspərˈsɛpʃənz
-monacoin;монакоин;monacoin*
-monetary;денежный;ˈmɑnəˌtɛri
-months;месяцы;mənθs
-moreover;более того;mɔˈroʊvər
-mult;мульт;mult*
-multi-round;многократный;multi-round*
-multiparentcasperimpl;multiparentcasperimpl;multiparentcasperimpl*
-mundo;мундо;ˈməndoʊ
-mutually;взаимно;mˈjuʧuəli
-namespaced;пространство имен;namespaced*
-necessarily;обязательно;ˌnɛsəˈsɛrəli
-neither;ни один;ˈniðər
-nerds;ботаники;nərdz
-newborn;новорожденный;ˈnubɔrn
-nfts;нфты;nfts*
-non-repudiable;неопровержимый;non-repudiable*
-nonce;nonce;nɑns
-nonces;одноразовые номера;nonces*
-nonfungible;невосполнимый;nonfungible*
-notably;особенно;ˈnoʊtəbli
-nothing-at-stake;ничто не поставлено на карту;nothing-at-stake*
-numerous;многочисленные;ˈnumərəs
-nutshell;вкратце;ˈnətˌʃɛl
-obligations;обязательства;ˌɑbləˈgeɪʃənz
-obtained;полученный;əbˈteɪnd
-obtains;получает;əbˈteɪnz
-occasionally;изредка;ɔˈkeɪʒənəˌli
-occurring;происходящий;əˈkərɪŋ
-offer;предложение;ˈɔfər
-offerings;предложения;ˈɔfərɪŋz
-offshore;оффшорный;ˈɔfˈʃɔr
-oligopoly;олигополия;ˌɑlɪˈgɑpəli
-one-third;треть;ˌwənˈθərd
-onto;на;ˈɔntu
-opportunities;возможности;ˌɑpərˈtunətiz
-opportunity;возможность;ˌɑpərˈtunəti
-ordered;упорядоченный;ˈɔrdərd
-origin;источник;ˈɔrəʤən
-originating;происхождение;ərˈɪʤəˌneɪtɪŋ
-origins;происхождение;ˈɔrəʤɪnz
-oscillatory;колебательный;ˈɑsələˌtɔri
-otherwise;иначе;ˈəðərˌwaɪz
-outcome;исход;ˈaʊtˌkəm
-outlet;выход;ˈaʊˌtlɛt
-over;над;ˈoʊvər
-overall;общий;ˈoʊvərˌɔl
-overstated;завышенный;ˈoʊvərˌsteɪtɪd
-overtakes;настигает;ˈoʊvərˌteɪks
-overview;обзор;ˈoʊvərvˌju
-par;номинал;pɑr
-participants;участники;pɑrˈtɪsəpənts
-participate;принимать участие;pɑrˈtɪsəˌpeɪt
-participating;участие;pɑrˈtɪsəˌpeɪtɪŋ
-particular;специфический;ˌpɑˈtɪkjələr
-parties;стороны;ˈpɑrtiz
-partitioning;разделение;pɑrˈtɪʃənɪŋ
-party;вечеринка;ˈpɑrti
-payload;полезная нагрузка;ˈpeɪˌloʊd
-payout;выплата;peɪaʊt
-peer-to-peer;пиринговый;ˌpɪrtoʊˈpɪr
-peers;сверстники;pɪrz
-penalise;наказывать;penalise*
-penalised;наказан;penalised*
-penalties;штрафы;ˈpɛnəltiz
-pending;в ожидании;ˈpɛndɪŋ
-performing;выполнение;pərˈfɔrmɪŋ
-permanent;постоянный;ˈpərmɑˌnɛnt
-permissionless;без разрешения;permissionless*
-perpetuating;увековечивая;pərˈpɛʧəˌweɪtɪŋ
-persist;сопротивляться;pərˈsɪst
-persistently;настойчиво;pərˈsɪstəntli
-persists;сохраняется;pərˈsɪsts
-pertinent;уместно;ˈpərtɪnɪnt
-phlogiston;флогистон;phlogiston*
-phlos;флос;phlos*
-pick;выбирать;pɪk
-pick-and-shovel-type;ковшовый;pick-and-shovel-type*
-pitted;без ямок;ˈpɪtɪd
-plausible;правдоподобный;ˈplɔzəbəl
-plenty;множество;ˈplɛnti
-plugging;затыкание;ˈpləgɪŋ
-policies;политика;ˈpɑləsiz
-policy;политика;ˈpɑləsi
-popper;поппер;ˈpɑpər
-popularity;популярность;ˌpɑpjəˈlɛrəti
-pos;позиция;ˈpiˈoʊˈɛs
-possess;владеть;pəˈzɛs
-possession;владение;pəˈzɛʃən
-powbitcoin;Powbitcoin;powbitcoin*
-powered;питание;paʊərd
-practitioners;практикующие;prækˈtɪʃənərz
-precedence;приоритет;ˈprɛsədəns
-preceding;предшествующий;priˈsidɪŋ
-predates;предшествует;ˈpriˈdeɪts
-prepares;готовит;pərˈpɛrz
-prerequisite;предпосылка;priˈrɛkwəzət
-presence;присутствие;ˈprɛzəns
-prevent;предотвращать;prɪˈvɛnt
-preventing;предотвращение;prɪˈvɛnɪŋ
-prevents;предотвращает;prɪˈvɛnts
-prime;основной;praɪm
-principles;принципы;ˈprɪnsəpəlz
-prioritize;расставлять приоритеты;praɪˈɔrəˌtaɪz
-proceed;продолжить;pərˈsid
-process-valued;технологически оцененный;process-valued*
-producing;производство;prəˈdusɪŋ
-product;продукт;ˈprɑdəkt
-proof-of-anything;доказательство чего-либо;proof-of-anything*
-proof-of-stakesome;доказательство заинтересованности;proof-of-stakesome*
-proof-of-x;доказательство x;proof-of-x*
-proposal;предложение;prəˈpoʊzəl
-proposals;предложения;prəˈpoʊzəlz
-proposed;предложил;prəˈpoʊzd
-proposer;предлагающий;proposer*
-proposition;предложение;ˌprɑpəˈzɪʃən
-propositions;предложения;ˌprɑpəˈzɪʃənz
-prospectors;старатели;ˈprɔˌspɛktərz
-prove;доказывать;pruv
-proven;доказано;ˈpruvən
-proves;доказывает;pruvz
-provide;предоставлять;prəˈvaɪd
-pseudonymous;псевдоним;pseudonymous*
-pseudonymously;псевдонимно;pseudonymously*
-publicly;публично;ˈpəblɪkli
-punish;наказывать;ˈpənɪʃ
-punished;наказан;ˈpənɪʃt
-punishments;наказания;ˈpənɪʃmənts
-pyrofex;пирофекс;pyrofex*
-quicker;быстрее;kˈwɪkər
-quite;довольно;kwaɪt
-raises;поднимает;ˈreɪzɪz
-ramp-up;наращивать;ramp-up*
-rapidly;быстро;ˈræpədli
-rates;тарифы;reɪts
-rather;скорее;ˈrəðər
-ratified;ратифицирован;ˈrætəˌfaɪd
-rationales;обоснования;ˌræʃəˈnælz
-reach;достигать;riʧ
-reached;достиг;riʧt
-reaching;достигая;ˈriʧɪŋ
-readmost;самый читаемый;readmost*
-reasonable;разумный;ˈrizənəbəl
-recalculated;пересчитанный;riˈkælkjəˌleɪtɪd
-record-keeping;Бухучет, ведение учета, делопроизводство;record-keeping*
-reduce;уменьшать;rɪˈdus
-reducer;редуктор;reducer*
-refer;ссылаться;rɪˈfər
-refers;относится;rɪˈfərz
-refuses;отказывается;rɪfˈjuzɪz
-regard;внимание;rɪˈgɑrd
-regarding;касательно;rɪˈgɑrdɪŋ
-regulates;регулирует;ˈrɛgjəˌleɪts
-regulatory;регулирующий;ˈrɛgjələˌtɔri
-reinforcing;усиление;ˌriɪnˈfɔrsɪŋ
-reinvoke;повторно вызывать;reinvoke*
-related;связанные с;rɪˈleɪtɪd
-relaying;ретрансляция;ˈriˌleɪɪŋ
-relied;полагался;rɪˈlaɪd
-relies;полагается;rɪˈlaɪz
-relinquish;отказаться;rɪˈlɪŋkwɪʃ
-rely;полагаться;rɪˈlaɪ
-relying;полагаясь;riˈlaɪɪŋ
-rendezvous;рандеву;ˈrɑndɪˌvu
-representation;представление;ˌrɛprəzɛnˈteɪʃən
-requester;запрашивающий;rɪkˈwɛstər
-reseller;торговый посредник;riˈsɛlər
-resembles;напоминает;rɪˈzɛmbəlz
-resistant;стойкий;rɪˈzɪstənt
-responsible;ответственный;riˈspɑnsəbəl
-rest;отдых;rɛst
-restructure;реструктуризация;riˈstrəkʧər
-retaining;сохранение;rɪˈteɪnɪŋ
-retrieving;получение;riˈtrivɪŋ
-retroactively;задним числом;ˌrɛtroʊˈæktɪvli
-rev;rev;rɛv
-revocation;отзыв;ˌrɛvəˈkeɪʃən
-revokable;отзывный;revokable*
-reward;вознаграждение;rɪˈwɔrd
-rewarded;награжден;rɪˈwɔrdɪd
-rewards;награды;rɪˈwɔrdz
-robust;крепкий;roʊˈbəst
-rogue;Изгой;roʊg
-rolled;свернутый;roʊld
-rollout;посадочная дистанция;ˈroʊˌlaʊt
-rough;грубый;rəf
-safer;безопаснее;ˈseɪfər
-scattered;разбросанный;ˈskætərd
-scratch;царапать;skræʧ
-sealer;герметик;ˈsilər
-sealing;запечатывание;ˈsilɪŋ
-seeing;видя;siɪŋ
-sees;видит;siz
-self-consistent;самосогласованный;ˌsɛlfkənˈsɪstənt
-sell;продавать;sɛl
-semicolon;точка с запятой;semicolon*
-sense;смысл;sɛns
-seq;seq;seq*
-sequencing;последовательность действий;ˈsikwənsɪŋ
-sequentializes;упорядочивает;sequentializes*
-settling;поселение;ˈsɛtəlɪŋ
-sharded;сегментированный;sharded*
-sharding;шардинг;sharding*
-shards;осколки;ʃɑrdz
-sharing;совместное использование;ˈʃɛrɪŋ
-sifted;просеянный;ˈsɪftɪd
-sign;знак;saɪn
-significant;значительный;sɪgˈnɪfɪkənt
-signing;подписание;ˈsaɪnɪŋ
-silverware;столовое серебро;ˈsɪlvərˌwɛr
-simultaneously;одновременно;ˌsaɪməlˈteɪniəsli
-sincerity;искренность;sɪnˈsɛrəti
-sins;грехи;sɪnz
-sketch;набросок;skɛʧ
-slashed;порезанный;slæʃt
-slightly;немного;sˈlaɪtli
-socialist;социалист;ˈsoʊʃəlɪst
-software-friendly;дружественный к программному обеспечению;software-friendly*
-soldering;пайка;ˈsɑdərɪŋ
-somebody;кто-нибудь;ˈsəmˌbɑdi
-somehow;как-то;ˈsəmˌhaʊ
-somename;какое-то имя;somename*
-someone;кто-то;ˈsəmˌwən
-spark;Искра;spɑrk
-spawning;нерест;ˈspɔnɪŋ
-spawns;нерестится;spɔnz
-specified;указан;ˈspɛsəˌfaɪd
-spend;проводить;spɛnd
-spending;траты;ˈspɛndɪŋ
-spent;потраченный;spɛnt
-spirit;дух;ˈspɪrɪt
-spit;плевать;spɪt
-spot;место;spɑt
-sprawling;раскидистый;ˈsprɔlɪŋ
-spread;распространение;sprɛd
-spreads;спреды;sprɛdz
-spreadsheet;электронная таблица;ˈsprɛdˌʃit
-stake;ставка;steɪk
-stake-based;основанный на ставках;stake-based*
-staked;поставленный на ставку;steɪkt
-stakers;ставки;stakers*
-stakes;ставки;steɪks
-staking;ставка;ˈsteɪkɪŋ
-staking-compatible;совместимость со стейкингом;staking-compatible*
-standing;стоя;ˈstændɪŋ
-starve;голодать;stɑrv
-state-roots;государственные корни;state-roots*
-stdoutack;stdoutack;stdoutack*
-steal;воровать;stil
-steer;рулить;stɪr
-storing;хранение;ˈstɔrɪŋ
-strategies;стратегии;ˈstrætəʤiz
-strict;строгий;strɪkt
-strives;стремится;straɪvz
-stronger;сильнее;ˈstrɔŋgər
-struggles;борьба;ˈstrəgəlz
-submit;представить;səbˈmɪt
-subpattern;подшаблон;subpattern*
-subsequent;последующий;ˈsəbsəkwənt
-substantial;существенный;səbˈstænʃəl
-substantially;существенно;səbˈstænʃəli
-substitution;подмена;ˌsəbstɪˈtuʃən
-succeeding;успешный;səkˈsidɪŋ
-suffer;страдать;ˈsəfər
-suggested;предложенный;səˈʤɛstɪd
-suitable;подходящее;ˈsutəbəl
-sumprod;отстойник;sumprod*
-supermajority;подавляющее большинство;ˈsupərməˌʤɔrɪti
-supplied;поставлен;səˈplaɪd
-supposed;предполагаемый;səˈpoʊzd
-sure;Конечно;ʃʊr
-surfaced;всплыл;ˈsərfɪst
-sustain;поддерживать;səˈsteɪn
-sustainability;устойчивость;səˌsteɪnəˈbɪlɪti
-sybil;сибилла;ˈsɪbɪl
-synchronicity;синхронность;sɪŋkrəˈnɪsɪti
-synthesize;синтезировать;ˈsɪnθəˌsaɪz
-takeover;перенимать;ˈteɪˌkoʊvər
-tamper-proof;защищенный от взлома;tamper-proof*
-tamper-resistant;устойчивый к взлому;tamper-resistant*
-tampered;подделанный;ˈtæmpərd
-tampering;вмешательство;ˈtæmpərɪŋ
-temporal;временный;ˈtɛmpərəl
-tempting;соблазнительный;ˈtɛmptɪŋ
-tendermint;нежная мята;tendermint*
-tends;имеет тенденцию;tɛndz
-terms;термины;tərmz
-them;их;ðɛm
-themselves;сами себя;ðɛmˈsɛlvz
-there;там;ðɛr
-thereby;тем самым;ˈðɛrˈbaɪ
-therefore;следовательно;ˈðɛrˌfɔr
-these;эти;ðiz
-thief;вор;θif
-thoroughly;тщательно;ˈθəroʊli
-those;те;ðoʊz
-though;хоть;ðoʊ
-threat;угроза;θrɛt
-through;через;θru
-throughput;пропускная способность;θˈruˌpʊt
-thus;таким образом;ðəs
-tie;галстук;taɪ
-tied;связанный;taɪd
-tighter;плотнее;ˈtaɪtər
-time-consuming;кропотливый;time-consuming*
-tolerance;толерантность;ˈtɑlərəns
-tolerant;терпимый;ˈtɑlərənt
-torn;разорванный;tɔrn
-tout;рекламировать;taʊt
-toward;к;təˈwɔrd
-track;отслеживать;træk
-tradeoff;компромисс;ˈtreɪˌdɔf
-transacting;совершение сделок;transacting*
-transfers;переводы;ˈtrænsfərz
-transition;переход;trænˈzɪʃən
-transitions;переходы;trænˈzɪʃənz
-transmission;коробка передач;trænzˈmɪʃən
-trial;пробный;traɪəl
-trial-and-error;методом проб и ошибок;trial-and-error*
-tricky;сложный;ˈtrɪki
-trust;доверять;trəst
-trusted;доверенный;ˈtrəstɪd
-turn;повернуть;tərn
-turns;повороты;tərnz
-unable;не в состоянии;əˈneɪbəl
-unalterable;неизменный;əˈnɔltərəbəl
-unbonding;разобщение;unbonding*
-unclear;неясно;ənˈklɪr
-underlying;лежащий в основе;ˌəndərˈlaɪɪŋ
-undermine;подорвать;ˈəndərˌmaɪn
-underscore;нижнее подчеркивание;ˌəndərˈskɔr
-unfalsifiable;необъяснимый;unfalsifiable*
-unforgeable;неподдельный;unforgeable*
-unfortunately;к несчастью;ənˈfɔrʧənətli
-unintentionally;непреднамеренно;ˌənɪnˈtɛnʃənəli
-unless;пока не;ənˈlɛs
-unlike;в отличие;ənˈlaɪk
-unnecessary;ненужный;ənˈnɛsəˌsɛri
-unsealer;распечатывающий;unsealer*
-unsealing;распечатывание;unsealing*
-unsustainable;неустойчивый;ˌənsəˈsteɪnəbəl
-untouched;нетронутый;ənˈtəʧt
-urn;урна;ərn
-utensil;посуда;juˈtɛnsəl
-validator-node-betters;валидатор-узел-беттеры;validator-node-betters*
-validity;срок действия;vəˈlɪdɪti
-valued;ценится;ˈvæljud
-variation;вариация;ˌvɛriˈeɪʃən
-varies;варьируется;ˈvɛriz
-various;разные;ˈvɛriəs
-vary;отличаться;ˈvɛri
-vast;огромный;væst
-vehicles;автомобили;ˈviɪkəlz
-verge;грани;vərʤ
-verifiably;достоверно;verifiably*
-via;через;ˈviə
-viable;жизнеспособный;ˈvaɪəbəl
-vice-versa;наоборот;vice-versa*
-vulnerabilities;уязвимости;ˌvəlnərəˈbɪlɪtiz
-vulnerability;уязвимость;ˌvəlnərəˈbɪlɪti
-vulnerable;уязвимый;ˈvəlnərəbəl
-wallet;кошелек;ˈwɔlət
-wallets;кошельки;ˈwɔləts
-warranty;гарантия;ˈwɔrənti
-wasted;потрачено;ˈweɪstɪd
-weaknesses;слабые стороны;ˈwiknəsɪz
-weaknessessatoshi;слабость;weaknessessatoshi*
-wealth;богатство;wɛlθ
-wealthy;богатый;ˈwɛlθi
-well;хорошо;wɛl
-well-formedness;правильная форма;well-formedness*
-went;пошли;wɛnt
-whatever;что бы ни;ˌwəˈtɛvər
-whether;ли;ˈwɛðər
-whichever;какой бы ни;wɪˈʧɛvər
-whom;кому;hum
-whose;чей;huz
-wildcard;подстановочный знак;ˈwaɪldˌkɑrd
-wildcards;подстановочные знаки;wildcards*
-willing;готовый;ˈwɪlɪŋ
-wishing;желая;ˈwɪʃɪŋ
-within;в;wɪˈθɪn
-won;победил;wən
-worth;ценность;wərθ
-worthless;бесполезный;ˈwərθləs
-wouldn;не стал бы;wouldn*
-yields;дает;jildz
+abides;пребывает;əˈbaɪdz;
+above;выше;əˈbəv;
+abuse;злоупотреблять;əˈbjuz;
+accomplish;выполнить;əˈkɑmplɪʃ;
+accountability;ответственность;əˈkaʊntəˌbɪlɪti;
+accounting;бухгалтерский учет;əˈkaʊnɪŋ;
+achieve;достигать;əˈʧiv;
+achieved;достигнуто;əˈʧivd;
+ack;подтверждать;æk;
+acknowledgement;подтверждение;ækˈnɑlɪʤmənt;
+acknowledgment;подтверждение;ækˈnɑlɪʤmənt;
+acquiring;приобретение;əkˈwaɪərɪŋ;
+across;через;əˈkrɔs;
+act;действовать;ækt;
+actively;активно;ˈæktɪvli;
+actor;актер;ˈæktər;
+actors;актеры;ˈæktərz;
+acts;действует;ækts;
+adhere;придерживаться;əˈdhɪr;
+adjacent;соседний;əˈʤeɪsənt;
+adoption;принятие;əˈdɑpʃən;
+advancements;достижения;ədˈvænsmənts;
+against;против;əˈgɛnst;
+ailing;больной;ˈeɪlɪŋ;
+aim;цель;eɪm;
+akin;сродни;ˈeɪkɪn;
+allotted;выделенный;əˈlɑtɪd;
+almost;почти;ˈɔlˌmoʊst;
+along;вдоль;əˈlɔŋ;
+alter;изменить;ˈɔltər;
+alteration;изменение;ˌɔltərˈeɪʃən;
+altered;изменен;ˈɔltərd;
+altering;изменение;ˈɔltərɪŋ;
+although;хотя;ˌɔlˈðoʊ;
+ambitious;амбициозный;æmˈbɪʃəs;
+ameliorate;улучшать;əˈmiljərˌeɪt;
+among;среди;əˈməŋ;
+amongst;среди;əˈməŋst;
+amount;количество;əˈmaʊnt;
+antminer;Antminer;antminer*;
+any;любой;ˈɛni;
+anyone;кто-нибудь;ˈɛniˌwən;
+apart;отдельно;əˈpɑrt;
+apologized;извинился;əˈpɑləˌʤaɪzd;
+appeal;обращаться;əˈpil;
+appear;появляться;əˈpɪr;
+approach;подход;əˈproʊʧ;
+appropriately;соответственно;əˈproʊpriɪtli;
+arbitrary;произвольный;ˈɑrbɪˌtrɛri;
+archiving;архивирование;archiving*;
+aren;радость;ˈɑrən;
+argue;спорить;ˈɑrgju;
+around;вокруг;əraʊnd;
+art;Изобразительное искусство;ɑrt;
+artwork;произведение искусства;ˈɑrtˌwərk;
+asics;asics;ˈæzɪks;
+aside;в стороне;əˈsaɪd;
+asset;актив;ˈæˌsɛt;
+assets;ресурсы;ˈæˌsɛts;
+assume;предполагать;əˈsum;
+assumption;предположение;əˈsəmpʃən;
+assure;гарантировать;əˈʃʊr;
+asterisk;звездочка;ˈæstərɪsk;
+attenuating;ослабление;attenuating*;
+attenuation;затухание;attenuation*;
+attenuators;аттенюаторы;attenuators*;
+attest;засвидетельствовать;əˈtɛst;
+attractors;аттракторы;attractors*;
+authenticity;подлинность;ˌɔθənˈtɪsɪti;
+authority;власть;əˈθɔrəti;
+autonomous;автономный;ɔˈtɑnəməs;
+avoid;избегать;əˈvɔɪd;
+awaited;ждал;əˈweɪtɪd;
+awarded;награжден;əˈwɔrdɪd;
+awards;награды;əˈwɔrdz;
+away;далеко;əˈweɪ;
+axiomatic;аксиоматический;ˌæksiəˈmætɪk;
+banned;запрещен;bænd;
+barrier;барьер;ˈbɛriər;
+basically;по сути;ˈbeɪsɪkli;
+become;стали;bɪˈkəm;
+becomes;становится;bɪˈkəmz;
+behalf;от имени;bɪˈhæf;
+behave;вести себя;bɪˈheɪv;
+behaves;ведет себя;bɪˈheɪvz;
+belief;вера;bɪˈlif;
+below;ниже;bɪˈloʊ;
+benchmark;ориентир;ˈbɛnʧˌmɑrk;
+benefits;преимущества;ˈbɛnəfɪts;
+bet;держать пари;bɛt;
+betting;делать ставки;ˈbɛtɪŋ;
+beware;остерегаться;bɪˈwɛr;
+bid;делать ставку;bɪd;
+bite;кусать;baɪt;
+bitmain;bitmain;bitmain*;
+bloated;раздутый;ˈbloʊtɪd;
+block-rewards;награды за блок;block-rewards*;
+blockchain-related;связанные с блокчейном;blockchain-related*;
+bond;связь;bɑnd;
+bonded;связанный;ˈbɑndɪd;
+bonding;связь;ˈbɑndɪŋ;
+borrow;одолжить;ˈbɑˌroʊ;
+breaches;нарушения;ˈbriʧɪz;
+bribery;взяточничество;ˈbraɪbəri;
+bring;приносить;brɪŋ;
+broadcast;транслировать;ˈbrɔdˌkæst;
+broadcasting;вещание;ˈbrɔdˌkæstɪŋ;
+broader;шире;ˈbrɔdər;
+built;построен;bɪlt;
+burdened;обремененный;ˈbərdənd;
+bvjun;Bvjun;bvjun*;
+by-proposition;побочное предложение;by-proposition*;
+byzantine;византийский;ˈbɪzənˌtin;
+camouflage;камуфляж;ˈkæməˌflɑʒ;
+care;забота;kɛr;
+carried;унесенный;ˈkɛrid;
+carry;нести;ˈkɛri;
+cash-grab;получение наличных;cash-grab*;
+censorship;цензура;ˈsɛnsərˌʃɪp;
+censorship-resistant;устойчивый к цензуре;censorship-resistant*;
+certain;определенный;ˈsərtən;
+chargeback;возвратный платеж;chargeback*;
+chips;чипсы;ʧɪps;
+chunks;куски;ʧəŋks;
+circuits;схемы;ˈsərkəts;
+claim;требовать;kleɪm;
+claims;претензии;kleɪmz;
+clause;пункт;klɔz;
+coarse-grained;крупнозернистый;coarse-grained*;
+coat;Пальто;koʊt;
+coindesk;Coindesk;coindesk*;
+coined;выдуманный;kɔɪnd;
+collateral;залог;kəˈlætərəl;
+collecte;собирать;collecte*;
+collectively;коллективно;kəˈlɛktɪvli;
+comas;кома;ˈkoʊməz;
+coming;приходящий;ˈkəmɪŋ;
+commodity;товар;kəˈmɑdəti;
+comparatively;сравнительно;kəmˈpærətɪvˌli;
+compete;конкурировать;kəmˈpit;
+competing;конкурирующий;kəmˈpitɪŋ;
+competition;соревнование;ˌkɑmpəˈtɪʃən;
+competitive;конкурентоспособный;kəmˈpɛtɪtɪv;
+composed;составлен;kəmˈpoʊzd;
+computational;вычислительный;ˌkɑmpjuˈteɪʃənəl;
+compute-intensive;ресурсоемкий;compute-intensive*;
+concept;концепция;ˈkɑnsɛpt;
+concurrently;одновременно;kənˈkərəntli;
+confessed;признался;kənˈfɛst;
+confidence;уверенность;ˈkɑnfədɛns;
+confirmations;подтверждения;ˌkɑnfərˈmeɪʃənz;
+confusion;спутанность сознания;kənfˈjuʒən;
+conjunctive;соединительный;conjunctive*;
+connective;соединительный;kəˈnɛktɪv;
+connectives;связки;connectives*;
+connectivity;возможность подключения;kənɛkˈtɪvɪti;
+consensusstork;консенсус;consensusstork*;
+consequence;последствие;ˈkɑnsəkwəns;
+consider;рассмотреть возможность;kənˈsɪdər;
+considered;считается;kənˈsɪdərd;
+consistency;последовательность;kənˈsɪstənsi;
+consistent;последовательный;kənˈsɪstənt;
+construction;строительство;kənˈstrəkʃən;
+consume;потреблять;kənˈsum;
+consumes;потребляет;kənˈsumz;
+consumption;потребление;kənˈsəmʃən;
+continuation;продолжение;kənˌtɪnjuˈeɪʃən;
+continued;продолжение;kənˈtɪnjud;
+convenient;удобный;kənˈvinjənt;
+converge;сходиться;kənˈvərʤ;
+convergence;конвергенция;kənˈvərʤəns;
+convergent;сходящийся;kənˈvərʤənt;
+coop;курятник;kup;
+corresponds;соответствует;ˌkɔrəˈspɑndz;
+cost-benefit;затрат и выгод;cost-benefit*;
+couples;пары;ˈkəpəlz;
+coveted;желанный;ˈkəvətɪd;
+credit;кредит;ˈkrɛdɪt;
+crow;ворона;kroʊ;
+cryptofex;криптофекс;cryptofex*;
+cryptozombies;криптозомби;cryptozombies*;
+cunningly;хитро;cunningly*;
+currency;валюта;ˈkərənsi;
+cypherpunk;шифропанк;cypherpunk*;
+dag;даг;dæg;
+decide;решать;ˌdɪˈsaɪd;
+decided;решил;ˌdɪˈsaɪdɪd;
+decides;решает;ˌdɪˈsaɪdz;
+decreases;уменьшается;ˈdiˌkrisɪz;
+decrypting;расшифровка;decrypting*;
+defence;защита;dɪˈfɛns;
+defi;defi;defi*;
+definitely;определенно;ˈdɛfənətli;
+demand;требовать;dɪˈmænd;
+denotation;обозначение;denotation*;
+denote;обозначать;dɪˈnoʊt;
+denoted;обозначен;dɪˈnoʊtəd;
+denotes;обозначает;dɪˈnoʊts;
+deposit;депозит;dɪˈpɑzət;
+deposit-as-collateral;залог в качестве залога;deposit-as-collateral*;
+deposited;депонированный;dɪˈpɑzətəd;
+deposits;депозиты;dɪˈpɑzəts;
+desire;желание;dɪˈzaɪər;
+desugaring;обессахаривание;desugaring*;
+dictate;диктовать;ˈdɪkˌteɪt;
+dining;обедать;ˈdaɪnɪŋ;
+directory;каталог;dɪˈrɛktəri;
+disambiguation;устранение неоднозначности;disambiguation*;
+discards;отбрасывает;dɪˈskɑrdz;
+discharge;увольнять;ˈdɪsˌʧɑrʤ;
+discourage;обескураживать;dɪˈskərɪʤ;
+discouraging;обескураживающий;dɪˈskərɪʤɪŋ;
+dishonest;нечестный;dɪˈsɑnəst;
+disincentivise;сдерживать;disincentivise*;
+dispatched;отправлен;dɪˈspæʧt;
+dispensed;выдан;dɪˈspɛnst;
+dispersed;рассредоточенный;dɪˈspərst;
+disrupt;нарушить;dɪsˈrəpt;
+dissuade;отговорить;dɪsˈweɪd;
+doles;пособия по безработице;doʊlz;
+domain;домен;doʊˈmeɪn;
+double-bang;двойной взрыв;double-bang*;
+double-spend;двойная трата;double-spend*;
+draft;черновой вариант;dræft;
+drawn;нарисованный;drɔn;
+dubbed;дублированный;dəbd;
+due;должное;du;
+earn;зарабатывать;ərn;
+ease;простота;iz;
+echoing;эхом;ˈɛkoʊɪŋ;
+economies;экономика;ɪˈkɑnəmiz;
+editorial;редакционная;ˌɛdəˈtɔriəl;
+effort;усилие;ˈɛfərt;
+efine;efine;efine*;
+either;либо;ˈiðər;
+elections;выборы;ɪˈlɛkʃənz;
+eliminate;Устранить;ɪˈlɪməˌneɪt;
+emerged;появился;ˈimərʤd;
+emphasize;подчеркнуть;ˈɛmfəˌsaɪz;
+encapsulate;инкапсулировать;ɛnˈkæpsəˌleɪt;
+encrypting;шифрование;encrypting*;
+encryption;шифрование;ɛnˈkrɪpʃən;
+endeavors;усилия;ɪnˈdɛvərz;
+enforce;принуждать;ɛnˈfɔrs;
+enforcement;принуждение;ɛnˈfɔrsmənt;
+engaged;увлеченный;ɪnˈgeɪʤd;
+enough;достаточно;ɪˈnəf;
+ensure;гарантировать;ɪnˈʃʊr;
+enterprise;предприятие;ˈɛnərˌpraɪz;
+enterprise-class;корпоративный класс;enterprise-class*;
+enticing;соблазнительный;ɛnˈtaɪsɪŋ;
+entire;весь;ɪnˈtaɪər;
+entities;сущности;ˈɛntɪtiz;
+entity;юридическое лицо;ˈɛntɪti;
+entries;записи;ˈɛntriz;
+entry;Вход;ˈɛntri;
+environmental;относящийся к окружающей среде;ɪnˌvaɪrənˈmɛnəl;
+equipped;оборудованный;ɪkˈwɪpt;
+equivocation;двусмысленность;ɪkwɪvəˈkeɪʃən;
+eradicate;искоренить;ɪˈrædəˌkeɪt;
+escrow-like;подобный условному депонированию;escrow-like*;
+essentially;по сути;ɛˈsɛnʃəli;
+established;учредил;ɪˈstæblɪʃt;
+establishes;устанавливает;ɪˈstæblɪʃɪz;
+ethash;Ethash;ethash*;
+ether;эфир;ˈiθər;
+eventually;в конце концов;ɪˈvɛnʧəwəli;
+ever;Когда-либо;ˈɛvər;
+everyone;все;ˈɛvriˌwən;
+everything;все;ˈɛvriˌθɪŋ;
+evidence;свидетельство;ˈɛvədəns;
+exactly;точно;ɪgˈzæktli;
+except;Кроме;ɪkˈsɛpt;
+exclamation;восклицание;ˌɛkskləˈmeɪʃən;
+exclusive;эксклюзивный;ɪkˈsklusɪv;
+exemplify;служить примером;ɪgˈzɛmpləˌfaɪ;
+existence;существование;ɪgˈzɪstəns;
+expansion;расширение;ɪkˈspænʧən;
+explain;объяснять;ɪkˈspleɪn;
+explained;объяснил;ɪkˈspleɪnd;
+explains;объясняет;ɪkˈspleɪnz;
+exploits;подвиги;ˈɛkˌsplɔɪts;
+explosion;взрыв;ɪkˈsploʊʒən;
+exposed;незащищенный;ɪkˈspoʊzd;
+exposes;разоблачает;ɪkˈspoʊzɪz;
+expressing;выражая;ɪkˈsprɛsɪŋ;
+extra;дополнительный;ˈɛkstrə;
+facet;грань;ˈfæsət;
+facets;грани;ˈfæsəts;
+facilitating;облегчение;fəˈsɪləˌteɪtɪŋ;
+faking;притворство;ˈfeɪkɪŋ;
+fame;слава;feɪm;
+familiar;знакомый;fəˈmɪljər;
+far;далеко;fɑr;
+fault;вина;fɔlt;
+faulty;неисправный;ˈfɔlti;
+favour;услуга;ˈfeɪvər;
+favouring;отдавая предпочтение;favouring*;
+fee;платеж;fi;
+fees;сборы;fiz;
+fewer;меньше;fjuər;
+filemaker;файловый менеджер;filemaker*;
+finalise;завершить;finalise*;
+finality;окончательность;faɪˈnæləti;
+fine-grained;мелкозернистый;fine-grained*;
+fined;оштрафован;faɪnd;
+firewall;брандмауэр;ˈfaɪrwɑl;
+foe;враг;foʊ;
+fold;складывать;foʊld;
+folded;сложенный;ˈfoʊldɪd;
+fool;дурак;ful;
+footprint;след;ˈfʊtˌprɪnt;
+forces;силы;ˈfɔrsɪz;
+foregoing;вышеизложенное;fɔrˈgoʊɪŋ;
+forge;ковать;fɔrʤ;
+forges;кузницы;ˈfɔrʤɪz;
+fork-choice;выбор вилки;fork-choice*;
+formals;формальные;formals*;
+formed;сформированный;fɔrmd;
+former;бывший;ˈfɔrmər;
+formulae;формулы;formulae*;
+fors;за;fərz;
+forthcoming;предстоящий;ˈfɔrθˈkəmɪŋ;
+forwarded;отправлено;ˈfɔrwərdɪd;
+forwarder;экспедитор;ˈfɔrwərdər;
+forwarders;экспедиторы;ˈfɔrwərdərz;
+forwarding;пересылка;ˈfɔrwərdɪŋ;
+forwards;вперед;ˈfɔrwərdz;
+foundation;фундамент;faʊnˈdeɪʃən;
+fraud;мошенничество;frɔd;
+fraudulent;мошеннический;ˈfrɔʤələnt;
+freely;свободно;ˈfrili;
+friction;трение;ˈfrɪkʃən;
+fueled;заправлен;fjuəld;
+fulfilled;выполнено;fʊlˈfɪld;
+fulfillment;исполнение;fʊlˈfɪlmənt;
+funds;фонды;fəndz;
+further;способствовать;ˈfərðər;
+furthermore;более того;ˈfərðərˌmɔr;
+gain;прирост;geɪn;
+gained;получил;geɪnd;
+gains;прибыль;geɪnz;
+gambling;играть в азартные игры;ˈgæmbəlɪŋ;
+gathered;собрал;ˈgæðərd;
+generalize;обобщать;ˈʤɛnərəˌlaɪz;
+genesis;происхождение;ˈʤɛnəsəs;
+genuine;подлинный;ˈʤɛnjuˌaɪn;
+giant;гигант;ʤaɪənt;
+gitter;мерзкий;ˈgɪtər;
+giving;давая;ˈgɪvɪŋ;
+globe;глобус;gloʊb;
+governed;управляемый;ˈgəvərnd;
+graced;украсил;greɪst;
+grade;оценка;greɪd;
+gradually;постепенно;ˈgræʤuəli;
+grant;даровать;grænt;
+greatly;сильно;ˈgreɪtli;
+greener;зеленее;ˈgrinər;
+growing;растущий;groʊɪŋ;
+grows;растет;groʊz;
+growth;рост;groʊθ;
+guarding;охрана;ˈgɑrdɪŋ;
+guess;угадать;gɛs;
+guiding;руководство;ˈgaɪdɪŋ;
+halving;уменьшение вдвое;ˈhævɪŋ;
+handful;горсть;ˈhændˌfʊl;
+hang;вешать;hæŋ;
+hard-fork;хард-форк;hard-fork*;
+harnesses;жгуты;ˈhɑrnəsɪz;
+harnessing;использование;ˈhɑrnəsɪŋ;
+hashrate;хешрейт;hashrate*;
+having;имея;ˈhævɪŋ;
+heat;нагревать;hit;
+hefty;здоровенный;ˈhɛfti;
+heirs;наследники;ɛrz;
+held;проводится;hɛld;
+hence;следовательно;hɛns;
+hit;ударить;hɪt;
+hobbyist;любитель;ˈhɑbiɪst;
+hodlers;ходлеры;hodlers*;
+hola;Hola;ˈhoʊlə;
+hooked;зацепил;hʊkt;
+hostile;враждебный;ˈhɑstəl;
+however;тем не мение;ˌhaʊˈɛvər;
+identifiable;идентифицируемый;aɪˈdɛntəˌfaɪəbəl;
+identities;идентичности;aɪˈdɛntɪˌtiz;
+identity;личность;aɪˈdɛntəˌti;
+immediately;немедленно;ˌɪˈmiˌdiətli;
+immutability;неизменность;immutability*;
+immutable;неизменный;ˌɪmˈjutəbəl;
+impact;влияние;ˌɪmˈpækt;
+impose;навязывать;ˌɪmˈpoʊz;
+improving;улучшение;ˌɪmˈpruvɪŋ;
+inability;неспособность;ˌɪnəˈbɪlɪti;
+incentive;стимул;ˌɪnˈsɛnɪv;
+incentives;стимулы;ˌɪnˈsɪnɪvz;
+incentivise;стимулировать;incentivise*;
+incentivised;стимулированный;incentivised*;
+inclusion;включение;ˌɪnˈkluʒən;
+inconsistencies;несоответствия;ˌɪŋˈkɑnsɪˌstɛnsiz;
+incorporate;включать;ˌɪnˈkɔrpərˌeɪt;
+incorporating;включение;ˌɪnˈkɔrpərˌeɪtɪŋ;
+incorruptible;неподкупный;incorruptible*;
+inevitably;неизбежно;ˌɪˈnɛvətəbli;
+inflation;инфляция;ˌɪnˈfleɪʃən;
+ingredients;ингредиенты;ˌɪnˈgridiənts;
+initially;первоначально;ˌɪˈnɪʃəli;
+ins;ins;ˈaɪˈɛˈnɛs;
+inspecting;осмотр;ˌɪnˈspɛktɪŋ;
+instant;мгновенное;ˈɪnstənt;
+insurance-related;связанный со страхованием;insurance-related*;
+integrity;честность;ˌɪnˈtɛgrəti;
+intended;намеревался;ˌɪnˈtɛndɪd;
+intercept;перехватить;ˌɪnərˈsɛpt;
+interfered;вмешался;ˌɪnərˈfɪrd;
+intermediaries;посредники;ˌɪnərˈmidiˌɛriz;
+intermediate;средний;ˌɪnərˈmidiɪt;
+internally;внутри;ˌɪnˈtərnəli;
+intuitions;интуиция;intuitions*;
+invented;изобретенный;ˌɪnˈvɛntɪd;
+invention;изобретение;ˌɪnˈvɛnʃən;
+investment;вложение;ˌɪnˈvɛstmənt;
+investments;инвестиции;ˌɪnˈvɛstmənts;
+invoke;вызывать;ˌɪnˈvoʊk;
+invoked;призванный;ˌɪnˈvoʊkt;
+involvement;участие;ˌɪnˈvɑlvmənt;
+isn;разве;isn*;
+issuance;выдача;ˈɪʃuəns;
+issuers;эмитенты;ˈɪʃuərz;
+itself;сам;ˌɪtˈsɛlf;
+itthis;это;itthis*;
+journalistic;журналистский;ˌʤərnəˈlɪstɪk;
+jury;жюри;ˈʤʊri;
+justification;оправдание;ˌʤəstəfəˈkeɪʃən;
+justified;оправданный;ˈʤəstəˌfaɪd;
+keeping;сохранение;ˈkipɪŋ;
+kept;хранится;kɛpt;
+lack;недостаток;læk;
+largely;во многом;ˈlɑrʤli;
+laszlo;Ласло;ˈlæzloʊ;
+latency;задержка;ˈleɪtənsi;
+laundering;отмывание;ˈlɔndərɪŋ;
+law;закон;lɔ;
+lawbreakers;нарушители закона;ˈlɔˌbreɪkərz;
+leading;ведущий;ˈlidɪŋ;
+leads;ведет;lidz;
+least;наименее;list;
+ledger;бухгалтерская книга;ˈlɛʤər;
+level--but;уровень - но;level--but*;
+likewise;так же;ˈlaɪkˌwaɪz;
+lindy;Линди;ˈlɪndi;
+liveness;живость;liveness*;
+lmdb;lmdb;lmdb*;
+loan;заем;loʊn;
+logback;вход в систему;logback*;
+long-term;долгосрочный;ˈlɔŋˈtərm;
+longer;дольше;ˈlɔŋgər;
+longevity;долголетие;lɔnˈʤɛvəti;
+looked;смотрел;lʊkt;
+loom;ткацкий станок;lum;
+lot;много;lɔt;
+lots;лоты;lɑts;
+lower;ниже;loʊər;
+mainnet;основная сеть;mainnet*;
+maintain;поддерживать;meɪnˈteɪn;
+maintaining;поддержание;meɪnˈteɪnɪŋ;
+maintains;поддерживает;meɪnˈteɪnz;
+majority;большинство;məˈʤɔrəti;
+manage;управлять;ˈmænɪʤ;
+manner;манера;ˈmænər;
+masternodes;мастерноды;masternodes*;
+maximally-consistent;максимально последовательный;maximally-consistent*;
+meaning;имея в виду;ˈminɪŋ;
+meant;имел в виду;mɛnt;
+mentioned;упомянул;ˈmɛnʃənd;
+merely;просто;ˈmɪrli;
+metcalfe;Metcalfe;ˈmɛtkəlf;
+mine;мой;maɪn;
+mined;добыт;maɪnd;
+miner;шахтер;ˈmaɪnər;
+misbehaving;плохое поведение;ˌmɪsbəˈheɪvɪŋ;
+misbehaviour;дурное поведение;misbehaviour*;
+misleading;вводящий в заблуждение;mɪsˈlidɪŋ;
+misperceptions;заблуждения;mɪspərˈsɛpʃənz;
+monacoin;монакоин;monacoin*;
+monetary;денежный;ˈmɑnəˌtɛri;
+months;месяцы;mənθs;
+moreover;более того;mɔˈroʊvər;
+mult;мульт;mult*;
+multi-round;многократный;multi-round*;
+multiparentcasperimpl;multiparentcasperimpl;multiparentcasperimpl*;
+mundo;мундо;ˈməndoʊ;
+mutually;взаимно;mˈjuʧuəli;
+namespaced;пространство имен;namespaced*;
+necessarily;обязательно;ˌnɛsəˈsɛrəli;
+neither;ни один;ˈniðər;
+nerds;ботаники;nərdz;
+newborn;новорожденный;ˈnubɔrn;
+nfts;нфты;nfts*;
+non-repudiable;неопровержимый;non-repudiable*;
+nonce;nonce;nɑns;
+nonces;одноразовые номера;nonces*;
+nonfungible;невосполнимый;nonfungible*;
+notably;особенно;ˈnoʊtəbli;
+nothing-at-stake;ничто не поставлено на карту;nothing-at-stake*;
+numerous;многочисленные;ˈnumərəs;
+nutshell;вкратце;ˈnətˌʃɛl;
+obligations;обязательства;ˌɑbləˈgeɪʃənz;
+obtained;полученный;əbˈteɪnd;
+obtains;получает;əbˈteɪnz;
+occasionally;изредка;ɔˈkeɪʒənəˌli;
+occurring;происходящий;əˈkərɪŋ;
+offer;предложение;ˈɔfər;
+offerings;предложения;ˈɔfərɪŋz;
+offshore;оффшорный;ˈɔfˈʃɔr;
+oligopoly;олигополия;ˌɑlɪˈgɑpəli;
+one-third;треть;ˌwənˈθərd;
+onto;на;ˈɔntu;
+opportunities;возможности;ˌɑpərˈtunətiz;
+opportunity;возможность;ˌɑpərˈtunəti;
+ordered;упорядоченный;ˈɔrdərd;
+origin;источник;ˈɔrəʤən;
+originating;происхождение;ərˈɪʤəˌneɪtɪŋ;
+origins;происхождение;ˈɔrəʤɪnz;
+oscillatory;колебательный;ˈɑsələˌtɔri;
+otherwise;иначе;ˈəðərˌwaɪz;
+outcome;исход;ˈaʊtˌkəm;
+outlet;выход;ˈaʊˌtlɛt;
+over;над;ˈoʊvər;
+overall;общий;ˈoʊvərˌɔl;
+overstated;завышенный;ˈoʊvərˌsteɪtɪd;
+overtakes;настигает;ˈoʊvərˌteɪks;
+overview;обзор;ˈoʊvərvˌju;
+par;номинал;pɑr;
+participants;участники;pɑrˈtɪsəpənts;
+participate;принимать участие;pɑrˈtɪsəˌpeɪt;
+participating;участие;pɑrˈtɪsəˌpeɪtɪŋ;
+particular;специфический;ˌpɑˈtɪkjələr;
+parties;стороны;ˈpɑrtiz;
+partitioning;разделение;pɑrˈtɪʃənɪŋ;
+party;вечеринка;ˈpɑrti;
+payload;полезная нагрузка;ˈpeɪˌloʊd;
+payout;выплата;peɪaʊt;
+peer-to-peer;пиринговый;ˌpɪrtoʊˈpɪr;
+peers;сверстники;pɪrz;
+penalise;наказывать;penalise*;
+penalised;наказан;penalised*;
+penalties;штрафы;ˈpɛnəltiz;
+pending;в ожидании;ˈpɛndɪŋ;
+performing;выполнение;pərˈfɔrmɪŋ;
+permanent;постоянный;ˈpərmɑˌnɛnt;
+permissionless;без разрешения;permissionless*;
+perpetuating;увековечивая;pərˈpɛʧəˌweɪtɪŋ;
+persist;сопротивляться;pərˈsɪst;
+persistently;настойчиво;pərˈsɪstəntli;
+persists;сохраняется;pərˈsɪsts;
+pertinent;уместно;ˈpərtɪnɪnt;
+phlogiston;флогистон;phlogiston*;
+phlos;флос;phlos*;
+pick;выбирать;pɪk;
+pick-and-shovel-type;ковшовый;pick-and-shovel-type*;
+pitted;без ямок;ˈpɪtɪd;
+plausible;правдоподобный;ˈplɔzəbəl;
+plenty;множество;ˈplɛnti;
+plugging;затыкание;ˈpləgɪŋ;
+policies;политика;ˈpɑləsiz;
+policy;политика;ˈpɑləsi;
+popper;поппер;ˈpɑpər;
+popularity;популярность;ˌpɑpjəˈlɛrəti;
+pos;позиция;ˈpiˈoʊˈɛs;
+possess;владеть;pəˈzɛs;
+possession;владение;pəˈzɛʃən;
+powbitcoin;Powbitcoin;powbitcoin*;
+powered;питание;paʊərd;
+practitioners;практикующие;prækˈtɪʃənərz;
+precedence;приоритет;ˈprɛsədəns;
+preceding;предшествующий;priˈsidɪŋ;
+predates;предшествует;ˈpriˈdeɪts;
+prepares;готовит;pərˈpɛrz;
+prerequisite;предпосылка;priˈrɛkwəzət;
+presence;присутствие;ˈprɛzəns;
+prevent;предотвращать;prɪˈvɛnt;
+preventing;предотвращение;prɪˈvɛnɪŋ;
+prevents;предотвращает;prɪˈvɛnts;
+prime;основной;praɪm;
+principles;принципы;ˈprɪnsəpəlz;
+prioritize;расставлять приоритеты;praɪˈɔrəˌtaɪz;
+proceed;продолжить;pərˈsid;
+process-valued;технологически оцененный;process-valued*;
+producing;производство;prəˈdusɪŋ;
+product;продукт;ˈprɑdəkt;
+proof-of-anything;доказательство чего-либо;proof-of-anything*;
+proof-of-stakesome;доказательство заинтересованности;proof-of-stakesome*;
+proof-of-x;доказательство x;proof-of-x*;
+proposal;предложение;prəˈpoʊzəl;
+proposals;предложения;prəˈpoʊzəlz;
+proposed;предложил;prəˈpoʊzd;
+proposer;предлагающий;proposer*;
+proposition;предложение;ˌprɑpəˈzɪʃən;
+propositions;предложения;ˌprɑpəˈzɪʃənz;
+prospectors;старатели;ˈprɔˌspɛktərz;
+prove;доказывать;pruv;
+proven;доказано;ˈpruvən;
+proves;доказывает;pruvz;
+provide;предоставлять;prəˈvaɪd;
+pseudonymous;псевдоним;pseudonymous*;
+pseudonymously;псевдонимно;pseudonymously*;
+publicly;публично;ˈpəblɪkli;
+punish;наказывать;ˈpənɪʃ;
+punished;наказан;ˈpənɪʃt;
+punishments;наказания;ˈpənɪʃmənts;
+pyrofex;пирофекс;pyrofex*;
+quicker;быстрее;kˈwɪkər;
+quite;довольно;kwaɪt;
+raises;поднимает;ˈreɪzɪz;
+ramp-up;наращивать;ramp-up*;
+rapidly;быстро;ˈræpədli;
+rates;тарифы;reɪts;
+rather;скорее;ˈrəðər;
+ratified;ратифицирован;ˈrætəˌfaɪd;
+rationales;обоснования;ˌræʃəˈnælz;
+reach;достигать;riʧ;
+reached;достиг;riʧt;
+reaching;достигая;ˈriʧɪŋ;
+readmost;самый читаемый;readmost*;
+reasonable;разумный;ˈrizənəbəl;
+recalculated;пересчитанный;riˈkælkjəˌleɪtɪd;
+record-keeping;Бухучет, ведение учета, делопроизводство;record-keeping*;
+reduce;уменьшать;rɪˈdus;
+reducer;редуктор;reducer*;
+refer;ссылаться;rɪˈfər;
+refers;относится;rɪˈfərz;
+refuses;отказывается;rɪfˈjuzɪz;
+regard;внимание;rɪˈgɑrd;
+regarding;касательно;rɪˈgɑrdɪŋ;
+regulates;регулирует;ˈrɛgjəˌleɪts;
+regulatory;регулирующий;ˈrɛgjələˌtɔri;
+reinforcing;усиление;ˌriɪnˈfɔrsɪŋ;
+reinvoke;повторно вызывать;reinvoke*;
+related;связанные с;rɪˈleɪtɪd;
+relaying;ретрансляция;ˈriˌleɪɪŋ;
+relied;полагался;rɪˈlaɪd;
+relies;полагается;rɪˈlaɪz;
+relinquish;отказаться;rɪˈlɪŋkwɪʃ;
+rely;полагаться;rɪˈlaɪ;
+relying;полагаясь;riˈlaɪɪŋ;
+rendezvous;рандеву;ˈrɑndɪˌvu;
+representation;представление;ˌrɛprəzɛnˈteɪʃən;
+requester;запрашивающий;rɪkˈwɛstər;
+reseller;торговый посредник;riˈsɛlər;
+resembles;напоминает;rɪˈzɛmbəlz;
+resistant;стойкий;rɪˈzɪstənt;
+responsible;ответственный;riˈspɑnsəbəl;
+rest;отдых;rɛst;
+restructure;реструктуризация;riˈstrəkʧər;
+retaining;сохранение;rɪˈteɪnɪŋ;
+retrieving;получение;riˈtrivɪŋ;
+retroactively;задним числом;ˌrɛtroʊˈæktɪvli;
+rev;rev;rɛv;
+revocation;отзыв;ˌrɛvəˈkeɪʃən;
+revokable;отзывный;revokable*;
+reward;вознаграждение;rɪˈwɔrd;
+rewarded;награжден;rɪˈwɔrdɪd;
+rewards;награды;rɪˈwɔrdz;
+robust;крепкий;roʊˈbəst;
+rogue;Изгой;roʊg;
+rolled;свернутый;roʊld;
+rollout;посадочная дистанция;ˈroʊˌlaʊt;
+rough;грубый;rəf;
+safer;безопаснее;ˈseɪfər;
+scattered;разбросанный;ˈskætərd;
+scratch;царапать;skræʧ;
+sealer;герметик;ˈsilər;
+sealing;запечатывание;ˈsilɪŋ;
+seeing;видя;siɪŋ;
+sees;видит;siz;
+self-consistent;самосогласованный;ˌsɛlfkənˈsɪstənt;
+sell;продавать;sɛl;
+semicolon;точка с запятой;semicolon*;
+sense;смысл;sɛns;
+seq;seq;seq*;
+sequencing;последовательность действий;ˈsikwənsɪŋ;
+sequentializes;упорядочивает;sequentializes*;
+settling;поселение;ˈsɛtəlɪŋ;
+sharded;сегментированный;sharded*;
+sharding;шардинг;sharding*;
+shards;осколки;ʃɑrdz;
+sharing;совместное использование;ˈʃɛrɪŋ;
+sifted;просеянный;ˈsɪftɪd;
+sign;знак;saɪn;
+significant;значительный;sɪgˈnɪfɪkənt;
+signing;подписание;ˈsaɪnɪŋ;
+silverware;столовое серебро;ˈsɪlvərˌwɛr;
+simultaneously;одновременно;ˌsaɪməlˈteɪniəsli;
+sincerity;искренность;sɪnˈsɛrəti;
+sins;грехи;sɪnz;
+sketch;набросок;skɛʧ;
+slashed;порезанный;slæʃt;
+slightly;немного;sˈlaɪtli;
+socialist;социалист;ˈsoʊʃəlɪst;
+software-friendly;дружественный к программному обеспечению;software-friendly*;
+soldering;пайка;ˈsɑdərɪŋ;
+somebody;кто-нибудь;ˈsəmˌbɑdi;
+somehow;как-то;ˈsəmˌhaʊ;
+somename;какое-то имя;somename*;
+someone;кто-то;ˈsəmˌwən;
+spark;Искра;spɑrk;
+spawning;нерест;ˈspɔnɪŋ;
+spawns;нерестится;spɔnz;
+specified;указан;ˈspɛsəˌfaɪd;
+spend;проводить;spɛnd;
+spending;траты;ˈspɛndɪŋ;
+spent;потраченный;spɛnt;
+spirit;дух;ˈspɪrɪt;
+spit;плевать;spɪt;
+spot;место;spɑt;
+sprawling;раскидистый;ˈsprɔlɪŋ;
+spread;распространение;sprɛd;
+spreads;спреды;sprɛdz;
+spreadsheet;электронная таблица;ˈsprɛdˌʃit;
+stake;ставка;steɪk;
+stake-based;основанный на ставках;stake-based*;
+staked;поставленный на ставку;steɪkt;
+stakers;ставки;stakers*;
+stakes;ставки;steɪks;
+staking;ставка;ˈsteɪkɪŋ;
+staking-compatible;совместимость со стейкингом;staking-compatible*;
+standing;стоя;ˈstændɪŋ;
+starve;голодать;stɑrv;
+state-roots;государственные корни;state-roots*;
+stdoutack;stdoutack;stdoutack*;
+steal;воровать;stil;
+steer;рулить;stɪr;
+storing;хранение;ˈstɔrɪŋ;
+strategies;стратегии;ˈstrætəʤiz;
+strict;строгий;strɪkt;
+strives;стремится;straɪvz;
+stronger;сильнее;ˈstrɔŋgər;
+struggles;борьба;ˈstrəgəlz;
+submit;представить;səbˈmɪt;
+subpattern;подшаблон;subpattern*;
+subsequent;последующий;ˈsəbsəkwənt;
+substantial;существенный;səbˈstænʃəl;
+substantially;существенно;səbˈstænʃəli;
+substitution;подмена;ˌsəbstɪˈtuʃən;
+succeeding;успешный;səkˈsidɪŋ;
+suffer;страдать;ˈsəfər;
+suggested;предложенный;səˈʤɛstɪd;
+suitable;подходящее;ˈsutəbəl;
+sumprod;отстойник;sumprod*;
+supermajority;подавляющее большинство;ˈsupərməˌʤɔrɪti;
+supplied;поставлен;səˈplaɪd;
+supposed;предполагаемый;səˈpoʊzd;
+sure;Конечно;ʃʊr;
+surfaced;всплыл;ˈsərfɪst;
+sustain;поддерживать;səˈsteɪn;
+sustainability;устойчивость;səˌsteɪnəˈbɪlɪti;
+sybil;сибилла;ˈsɪbɪl;
+synchronicity;синхронность;sɪŋkrəˈnɪsɪti;
+synthesize;синтезировать;ˈsɪnθəˌsaɪz;
+takeover;перенимать;ˈteɪˌkoʊvər;
+tamper-proof;защищенный от взлома;tamper-proof*;
+tamper-resistant;устойчивый к взлому;tamper-resistant*;
+tampered;подделанный;ˈtæmpərd;
+tampering;вмешательство;ˈtæmpərɪŋ;
+temporal;временный;ˈtɛmpərəl;
+tempting;соблазнительный;ˈtɛmptɪŋ;
+tendermint;нежная мята;tendermint*;
+tends;имеет тенденцию;tɛndz;
+terms;термины;tərmz;
+them;их;ðɛm;
+themselves;сами себя;ðɛmˈsɛlvz;
+there;там;ðɛr;
+thereby;тем самым;ˈðɛrˈbaɪ;
+therefore;следовательно;ˈðɛrˌfɔr;
+these;эти;ðiz;
+thief;вор;θif;
+thoroughly;тщательно;ˈθəroʊli;
+those;те;ðoʊz;
+though;хоть;ðoʊ;
+threat;угроза;θrɛt;
+through;через;θru;
+throughput;пропускная способность;θˈruˌpʊt;
+thus;таким образом;ðəs;
+tie;галстук;taɪ;
+tied;связанный;taɪd;
+tighter;плотнее;ˈtaɪtər;
+time-consuming;кропотливый;time-consuming*;
+tolerance;толерантность;ˈtɑlərəns;
+tolerant;терпимый;ˈtɑlərənt;
+torn;разорванный;tɔrn;
+tout;рекламировать;taʊt;
+toward;к;təˈwɔrd;
+track;отслеживать;træk;
+tradeoff;компромисс;ˈtreɪˌdɔf;
+transacting;совершение сделок;transacting*;
+transfers;переводы;ˈtrænsfərz;
+transition;переход;trænˈzɪʃən;
+transitions;переходы;trænˈzɪʃənz;
+transmission;коробка передач;trænzˈmɪʃən;
+trial;пробный;traɪəl;
+trial-and-error;методом проб и ошибок;trial-and-error*;
+tricky;сложный;ˈtrɪki;
+trust;доверять;trəst;
+trusted;доверенный;ˈtrəstɪd;
+turn;повернуть;tərn;
+turns;повороты;tərnz;
+unable;не в состоянии;əˈneɪbəl;
+unalterable;неизменный;əˈnɔltərəbəl;
+unbonding;разобщение;unbonding*;
+unclear;неясно;ənˈklɪr;
+underlying;лежащий в основе;ˌəndərˈlaɪɪŋ;
+undermine;подорвать;ˈəndərˌmaɪn;
+underscore;нижнее подчеркивание;ˌəndərˈskɔr;
+unfalsifiable;необъяснимый;unfalsifiable*;
+unforgeable;неподдельный;unforgeable*;
+unfortunately;к несчастью;ənˈfɔrʧənətli;
+unintentionally;непреднамеренно;ˌənɪnˈtɛnʃənəli;
+unless;пока не;ənˈlɛs;
+unlike;в отличие;ənˈlaɪk;
+unnecessary;ненужный;ənˈnɛsəˌsɛri;
+unsealer;распечатывающий;unsealer*;
+unsealing;распечатывание;unsealing*;
+unsustainable;неустойчивый;ˌənsəˈsteɪnəbəl;
+untouched;нетронутый;ənˈtəʧt;
+urn;урна;ərn;
+utensil;посуда;juˈtɛnsəl;
+validator-node-betters;валидатор-узел-беттеры;validator-node-betters*;
+validity;срок действия;vəˈlɪdɪti;
+valued;ценится;ˈvæljud;
+variation;вариация;ˌvɛriˈeɪʃən;
+varies;варьируется;ˈvɛriz;
+various;разные;ˈvɛriəs;
+vary;отличаться;ˈvɛri;
+vast;огромный;væst;
+vehicles;автомобили;ˈviɪkəlz;
+verge;грани;vərʤ;
+verifiably;достоверно;verifiably*;
+via;через;ˈviə;
+viable;жизнеспособный;ˈvaɪəbəl;
+vice-versa;наоборот;vice-versa*;
+vulnerabilities;уязвимости;ˌvəlnərəˈbɪlɪtiz;
+vulnerability;уязвимость;ˌvəlnərəˈbɪlɪti;
+vulnerable;уязвимый;ˈvəlnərəbəl;
+wallet;кошелек;ˈwɔlət;
+wallets;кошельки;ˈwɔləts;
+warranty;гарантия;ˈwɔrənti;
+wasted;потрачено;ˈweɪstɪd;
+weaknesses;слабые стороны;ˈwiknəsɪz;
+weaknessessatoshi;слабость;weaknessessatoshi*;
+wealth;богатство;wɛlθ;
+wealthy;богатый;ˈwɛlθi;
+well;хорошо;wɛl;
+well-formedness;правильная форма;well-formedness*;
+went;пошли;wɛnt;
+whatever;что бы ни;ˌwəˈtɛvər;
+whether;ли;ˈwɛðər;
+whichever;какой бы ни;wɪˈʧɛvər;
+whom;кому;hum;
+whose;чей;huz;
+wildcard;подстановочный знак;ˈwaɪldˌkɑrd;
+wildcards;подстановочные знаки;wildcards*;
+willing;готовый;ˈwɪlɪŋ;
+wishing;желая;ˈwɪʃɪŋ;
+within;в;wɪˈθɪn;
+won;победил;wən;
+worth;ценность;wərθ;
+worthless;бесполезный;ˈwərθləs;
+wouldn;не стал бы;wouldn*;
+yields;дает;jildz;
