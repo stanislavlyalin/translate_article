@@ -13,7 +13,7 @@ Client                                              Server
   |                                                   |
   |                                                   |
   |                                                   |
-  |              [G] /tokens, {url: str}              |
+  |    [G] /tokens, {url: str, access_token: str}     |
   |-------------------------------------------------->|  # get list of tokens in given article
   |                  200, {[tokens]}                  |
   |<--------------------------------------------------|
@@ -48,21 +48,21 @@ from translator_py import Translator
 translator = Translator()
 logged_in = translator.login(email, password)
 
-known, unknown, passed = [], [], []
-
-for word in translator.tokens(url):
-  ans = input(f"Do you know word '{word}'?: ").lower()
-
-  if ans == 'stop':
-      break
-  elif ans == 'y':
-      known.add(word)
-  elif ans == 'n':
-      unknown.append(word)
-  else:
-    passed.append(word)
-
 if logged_in:
+  known, unknown, passed = [], [], []
+
+  for word in translator.tokens(url):
+    ans = input(f"Do you know word '{word}'?: ").lower()
+
+    if ans == 'stop':
+        break
+    elif ans == 'y':
+        known.add(word)
+    elif ans == 'n':
+        unknown.append(word)
+    else:
+      passed.append(word)
+
   page = translator.prepare(known, unknown, passed, transcriptions=True)
 
   # ... save page and open in browser ...
