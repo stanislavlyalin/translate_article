@@ -104,7 +104,18 @@ if __name__ == '__main__':
     article_text = article.text
     title = doc.title()
 
-    node = BeautifulSoup(doc.get_clean_html(), 'html.parser').find('body')
+    bs_doc = BeautifulSoup(doc.get_clean_html(), 'html.parser')
+
+    # replace all image tags
+    domain = ''
+    m = re.search('(https?://.*?)/', url)
+    if m:
+        domain = m[1]
+    for img in bs_doc.find_all('img'):
+        if 'http' not in img['src']:
+            img['src'] = domain + img['src']
+
+    node = bs_doc.find('body')
 
     # select unique tokens by regex only in text nodes
     tokens = []
