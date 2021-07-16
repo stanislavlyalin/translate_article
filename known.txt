@@ -1,6 +1,7 @@
 ability
 able
 about
+abraham
 abstract
 academic
 accept
@@ -40,6 +41,7 @@ agreement
 algorithm
 algorithmically
 alice
+align
 all
 allow
 allowing
@@ -47,6 +49,7 @@ allows
 alone
 alpha
 already
+alright
 also
 alternative
 always
@@ -90,6 +93,7 @@ arriving
 arrow
 article
 as
+ask
 asked
 assigned
 assigning
@@ -184,6 +188,7 @@ booleans
 both
 bottom
 bound
+boxes
 branch
 breaks
 brown
@@ -258,6 +263,7 @@ checked
 checkpoint
 checkpoints
 checks
+children
 choi
 choice
 choose
@@ -288,6 +294,8 @@ collected
 collecting
 collections
 collective
+collision
+collision-resistant
 com
 combinatorial
 combined
@@ -322,6 +330,7 @@ computation
 computationally
 computations
 compute
+computed
 computer
 computers
 computerworld
@@ -345,6 +354,7 @@ confirmation
 confirms
 conflicting
 conflicts
+congratulations
 connection
 consensus
 consensus-safety
@@ -384,6 +394,7 @@ coordinate
 copy
 core
 correct
+correctly
 correlate
 corresponding
 corrupted
@@ -395,6 +406,7 @@ counting
 course
 cover
 cpu
+crazy
 create
 created
 creates
@@ -433,6 +445,7 @@ days
 deadlock
 debate
 dec
+december
 decentralisation
 decentralised
 decentralization
@@ -460,6 +473,7 @@ delaying
 delegate
 delegated
 delete
+delimiter
 demonstrate
 demonstrates
 depend
@@ -531,10 +545,13 @@ dominant
 don
 done
 doors
+dots
 double
 double-spending
 double-voting
 down
+download
+downloaded
 drive
 dropbox
 during
@@ -572,6 +589,7 @@ else
 emails
 empty
 enable
+enables
 encode
 encoded
 encyclopedia
@@ -649,6 +667,7 @@ fighting
 figure
 file
 files
+fill
 filled
 filling
 final
@@ -676,6 +695,7 @@ for
 fork
 forks
 form
+formalized
 formally
 format
 forms
@@ -698,6 +718,7 @@ function
 functional
 functionality
 functions
+fundamental
 fundamentally
 future
 gadget
@@ -874,6 +895,7 @@ initiative
 innovations
 innovative
 input
+inputs
 inserted
 inside
 instance
@@ -1004,6 +1026,7 @@ listening
 listens
 lists
 little
+live
 ll
 load
 localbitcoin
@@ -1084,6 +1107,7 @@ media
 medical
 meets
 member
+membership
 memory
 merkle
 message
@@ -1104,12 +1128,14 @@ minimally
 minimum
 mining
 minutes
+missing
 mission
 mitigate
 model
 modeling
 modes
 modification
+modified
 modifying
 money
 more
@@ -1190,6 +1216,8 @@ numeric
 nvidia
 object
 object-oriented
+observation
+observe
 observed
 occur
 occurred
@@ -1233,6 +1261,7 @@ other
 others
 our
 out
+outputs
 outs
 outside
 overloaded
@@ -1281,6 +1310,7 @@ philosopher1
 philosopher2
 philosophers
 philosophy
+picture
 picturebook
 piece
 pieces
@@ -1309,6 +1339,8 @@ positions
 possibility
 possible
 possibly
+post
+posted
 potential
 potentially
 pow
@@ -1414,6 +1446,7 @@ reading
 reads
 ready
 real
+really
 reason
 receive
 received
@@ -1424,6 +1457,7 @@ receiving
 recent
 recently
 recognized
+recompute
 record
 recorded
 records
@@ -1689,6 +1723,7 @@ stops
 storage
 store
 stored
+stores
 stornetta
 strategy
 string
@@ -1793,6 +1828,7 @@ tobytearray
 today
 todo
 together
+toggle
 token
 tokens
 tomislav
@@ -1813,6 +1849,7 @@ transfer
 transferred
 transformed
 translation
+transmitting
 transparency
 transparent
 transportation
@@ -1820,6 +1857,7 @@ tree
 trees
 triangle
 tries
+trivial
 true
 try
 tuesday
@@ -1848,6 +1886,7 @@ updates
 updating
 upgrade
 upgrades
+upload
 uploaded
 uri
 us
@@ -1880,16 +1919,19 @@ variants
 vectors
 verification
 verified
+verifier
 verify
 version
 versions
 very
 video
+videos
 view
 virtually
 visa
 visible
 visualising
+visually
 vitalik
 vlad
 vote
