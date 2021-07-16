@@ -80,14 +80,6 @@ def save_unknown_dict(unknown: dict, file_path: str):
         pass
 
 
-def text_nodes(root_node):
-    """
-    Recursive iterate over text nodes
-    """
-    for node in root_node.findChildren(text=True, recursive=True):
-        yield node
-
-
 def translate(text, api_key):
     url = 'https://translation.googleapis.com/language/translate/v2'
     ans = json.loads(

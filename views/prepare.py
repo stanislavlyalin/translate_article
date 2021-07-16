@@ -1,11 +1,11 @@
+import json
 import re
 
 import eng_to_ipa as ipa
 import flask.views
 
 from .readable_article import ReadableArticle
-from .utils import translate, save_known_dict, save_unknown_dict, text_nodes, \
-    get_context
+from .utils import translate, save_known_dict, save_unknown_dict, get_context
 
 
 class Prepare(flask.views.MethodView):
@@ -13,8 +13,8 @@ class Prepare(flask.views.MethodView):
     def put():
         args = dict(flask.request.args)
         url = args['url']
-        known = args['known']
-        to_translate = args['unknown']
+        known = json.loads(args['known'])
+        to_translate = json.loads(args['unknown'])
         access_token = args['access_token']
 
         article = ReadableArticle(url)
