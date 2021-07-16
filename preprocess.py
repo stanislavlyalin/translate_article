@@ -167,8 +167,8 @@ if __name__ == '__main__':
         translation_pairs.append((en, ru))
 
     save_known_dict(known, known_filepath)
-    unknown = {word: (translation, context[word]) for word, translation in
-               translation_pairs}
+    unknown = {word: (translation, context[word] if word in context else '') for
+               word, translation in translation_pairs}
     save_unknown_dict(unknown, unknown_filepath)
 
     # keep only words presented in current document
