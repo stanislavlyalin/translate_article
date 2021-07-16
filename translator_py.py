@@ -20,10 +20,11 @@ class Translator():
         return json.loads(ans.content)
 
     def prepare(self, known: list, unknown: list, transcriptions: bool = True):
-        ans = requests.get(self.base_url + '/prepare', params={'url': self.url, 'known': known, 'unknown': unknown, 'access_token': self.access_token})
+        ans = requests.put(self.base_url + '/prepare', params={'url': self.url, 'known': known, 'unknown': unknown, 'transcriptions': transcriptions, 'access_token': self.access_token})
         return ans.content
 
 
+url = 'https://en.wikipedia.org/wiki/Blockchain'
 translator = Translator()
 logged_in = translator.login('lyalinstas@gmail.com', 'andromeda')
 
@@ -42,5 +43,5 @@ if logged_in:
     else:
       passed.append(word)
 
-  page = translator.prepare(known, unknown, passed, transcriptions=True)
-  print(page[:100]
+  page = translator.prepare(known, unknown, transcriptions=True)
+  print(page[:100])
