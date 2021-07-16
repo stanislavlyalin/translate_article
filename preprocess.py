@@ -97,7 +97,7 @@ def get_context(word: str, text: str):
 
 if __name__ == '__main__':
 
-    url = input('Enter page URL: ')
+    url = input('Enter page URL: ').strip()
     article = Article(url)
     article.download()
     doc = Document(article.html)
