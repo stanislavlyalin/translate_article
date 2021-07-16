@@ -189,7 +189,8 @@ if __name__ == '__main__':
                 text.replace_with(text_to_replace)
 
     # save prepared page near the original
-    translated_file_path = f'{title}.html'
+    filepath = re.sub(r'[^\w\-_. ]', '_', title)
+    translated_file_path = f'{filepath}.html'
     with open(translated_file_path, encoding='utf-8', mode='w') as f:
         common_style = '''<style type="text/css">
                 img {
