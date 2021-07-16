@@ -19,8 +19,8 @@ Client                                              Server
   |<--------------------------------------------------|
   |                                                   |
   |                                                   |
-  |      [POST] /prepare,                             |  # prepare article - insert transcriptions/translations
-  |        {[known], [unknown], [pass],               |
+  |      [PUT] /prepare,                              |  # prepare article - insert transcriptions/translations
+  |        {url, [known], [unknown],                  |
   |         transcriptions: bool [opt, true],         |
   |         access_token: str}                        |
   |-------------------------------------------------->|
