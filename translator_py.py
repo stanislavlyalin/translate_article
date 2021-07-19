@@ -33,3 +33,9 @@ class Translator:
                                    'transcriptions': transcriptions,
                                    'access_token': self.access_token})
         return ans.content.decode('utf-8')
+
+    def anki(self, filepath):
+        ans = requests.get(self.base_url + '/anki',
+                           params={'access_token': self.access_token})
+        with open(filepath, encoding='utf-8', mode='w') as f:
+            f.write(ans.content.decode('utf-8'))
