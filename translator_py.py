@@ -1,8 +1,9 @@
 import json
-
-import requests
+import re
 import webbrowser
 
+import requests
+from bs4 import BeautifulSoup
 
 
 class Translator:
@@ -53,9 +54,11 @@ if logged_in:
             unknown.append(word)
 
     page = translator.translate(known, unknown, transcriptions=True)
+    bs_doc = BeautifulSoup(page, 'html.parser')
+    title = bs_doc.title.string
+    filepath = re.sub(r'[^\w\-_. ]', '_', title)
+    translated_file_path = f'{filepath}.html'
 
-    with open('test.html', encoding='utf-8', mode='w') as f:
+    with open(translated_file_path, encoding='utf-8', mode='w') as f:
         f.write(page)
-        webbrowser.open('test.html')
-
-
+        webbrowser.open(translated_file_path)
