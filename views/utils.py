@@ -104,3 +104,8 @@ def get_context(word: str, text: str):
                    re.IGNORECASE)
     m = re.search(r, text)
     return m[1].strip() if m else ''
+
+
+def load_api_key(filepath):
+    with open(filepath, encoding='utf-8') as f:
+        return f.readline().strip()

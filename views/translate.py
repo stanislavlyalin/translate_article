@@ -6,7 +6,7 @@ import flask.views
 
 from .readable_article import ReadableArticle
 from .utils import translate, save_known_dict, save_unknown_dict, get_context, \
-    load_known_dict, load_unknown_dict
+    load_known_dict, load_unknown_dict, load_api_key
 
 
 class Translate(flask.views.MethodView):
@@ -22,7 +22,7 @@ class Translate(flask.views.MethodView):
         article_text = article.text()
         tokens = article.tokens()
 
-        api_key = 'AIzaSyAyqWeQA9dkBZ39JWaXSGIpBrea7f_9WIY'
+        api_key = load_api_key('api.key')
 
         context = {}
         # translation = [translate(word, api_key) for word in to_translate]
