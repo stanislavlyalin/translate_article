@@ -6,15 +6,16 @@ from bs4 import BeautifulSoup
 from translator_py import Translator
 
 if __name__ == '__main__':
-    url = 'https://en.wikipedia.org/wiki/Blockchain'
-    translator = Translator()
 
     email = input('Enter email: ')
     password = input('Enter password: ')
+
+    translator = Translator()
     logged_in = translator.login(email, password)
 
     if logged_in:
         known, unknown = [], []
+        url = 'https://en.wikipedia.org/wiki/Blockchain'
 
         for word in translator.tokens(url):
             ans = input(f"Do you know word '{word}'?: ").lower()
