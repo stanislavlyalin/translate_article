@@ -5,7 +5,8 @@ import eng_to_ipa as ipa
 import flask.views
 
 from .readable_article import ReadableArticle
-from .utils import translate, save_known_dict, save_unknown_dict, get_context
+from .utils import translate, save_known_dict, save_unknown_dict, get_context, \
+    load_known_dict, load_unknown_dict
 
 
 class Translate(flask.views.MethodView):
@@ -19,6 +20,7 @@ class Translate(flask.views.MethodView):
 
         article = ReadableArticle(url)
         article_text = article.text()
+        tokens = article.tokens()
 
         api_key = 'AIzaSyAyqWeQA9dkBZ39JWaXSGIpBrea7f_9WIY'
 
@@ -35,10 +37,25 @@ class Translate(flask.views.MethodView):
 
         known_filepath = f'{access_token}_known.txt'
         unknown_filepath = f'{access_token}_unknown.txt'
+
+        known_from_file = load_known_dict(known_filepath)
+        unknown_from_file = load_unknown_dict(unknown_filepath)
+
+        known = set(known).union(known_from_file)
+
         save_known_dict(known, known_filepath)
         unknown = {word: (translation, context[word] if word in context else '')
                    for word, translation in translation_pairs}
+
+        unknown = {**unknown, **unknown_from_file}
         save_unknown_dict(unknown, unknown_filepath)
+
+        # translation_pairs = list(filter(lambda word, translation_context: word in tokens, unknown.items()))
+
+        translation_pairs = [(word, translation_context[0]) for
+                             word, translation_context in unknown.items()]
+        translation_pairs = list(
+            filter(lambda item: item[0] in tokens, translation_pairs))
 
         # replace unknown words to words + translations
         span_begin, span_end = 'SPAN_BEGIN', 'SPAN_END'
