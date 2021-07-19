@@ -25,8 +25,9 @@ class Translator:
                                                               'access_token': self.access_token})
         return json.loads(ans.content)
 
-    def prepare(self, known: list, unknown: list, transcriptions: bool = True):
-        ans = requests.put(self.base_url + '/prepare',
+    def translate(self, known: list, unknown: list,
+                  transcriptions: bool = True):
+        ans = requests.put(self.base_url + '/translate',
                            params={'url': self.url, 'known': json.dumps(known),
                                    'unknown': json.dumps(unknown),
                                    'transcriptions': transcriptions,
@@ -51,7 +52,7 @@ if logged_in:
         elif ans == 'n':
             unknown.append(word)
 
-    page = translator.prepare(known, unknown, transcriptions=True)
+    page = translator.translate(known, unknown, transcriptions=True)
 
     with open('test.html', encoding='utf-8', mode='w') as f:
         f.write(page)

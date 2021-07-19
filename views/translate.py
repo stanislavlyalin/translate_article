@@ -8,7 +8,7 @@ from .readable_article import ReadableArticle
 from .utils import translate, save_known_dict, save_unknown_dict, get_context
 
 
-class Prepare(flask.views.MethodView):
+class Translate(flask.views.MethodView):
     @staticmethod
     def put():
         args = dict(flask.request.args)
