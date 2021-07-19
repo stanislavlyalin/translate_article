@@ -32,7 +32,7 @@ class Translator:
                                    'unknown': json.dumps(unknown),
                                    'transcriptions': transcriptions,
                                    'access_token': self.access_token})
-        return ans.content
+        return ans.content.decode('utf-8')
 
 
 url = 'https://en.wikipedia.org/wiki/Blockchain'
