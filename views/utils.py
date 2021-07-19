@@ -3,8 +3,8 @@ import json
 import re
 from pathlib import Path
 
+import eng_to_ipa as ipa
 import requests
-
 
 hashes_filepath = 'user_hashes.txt'
 
@@ -47,7 +47,7 @@ def load_unknown_dict(file_path: str):
         unknown = {}
         for x in content:
             word, translation, transcription, context = x.strip().split(';')
-            unknown[word] = translation
+            unknown[word] = (translation, context)
         return unknown
     except:
         return {}
