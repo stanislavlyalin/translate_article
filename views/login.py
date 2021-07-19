@@ -1,4 +1,5 @@
 import flask.views
+
 from .utils import hash, is_user_registered
 
 

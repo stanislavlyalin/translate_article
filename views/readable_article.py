@@ -1,8 +1,9 @@
 import re
+
+import nltk
 from bs4 import BeautifulSoup
 from newspaper import Article
 from readability import Document
-import nltk
 
 
 class ReadableArticle:
