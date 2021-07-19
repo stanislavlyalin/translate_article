@@ -1,9 +1,6 @@
 import json
-import re
-import webbrowser
 
 import requests
-from bs4 import BeautifulSoup
 
 
 class Translator:
@@ -22,8 +19,9 @@ class Translator:
 
     def tokens(self, url: str):
         self.url = url
-        ans = requests.get(self.base_url + '/tokens', params={'url': url,
-                                                              'access_token': self.access_token})
+        ans = requests.get(
+            self.base_url + '/tokens',
+            params={'url': url, 'access_token': self.access_token})
         return json.loads(ans.content)
 
     def translate(self, known: list, unknown: list,
@@ -34,31 +32,3 @@ class Translator:
                                    'transcriptions': transcriptions,
                                    'access_token': self.access_token})
         return ans.content.decode('utf-8')
-
-
-url = 'https://en.wikipedia.org/wiki/Blockchain'
-translator = Translator()
-logged_in = translator.login('lyalinstas@gmail.com', 'andromeda')
-
-if logged_in:
-    known, unknown = [], []
-
-    for word in translator.tokens(url):
-        ans = input(f"Do you know word '{word}'?: ").lower()
-
-        if ans == 'stop':
-            break
-        elif ans == 'y':
-            known.append(word)
-        elif ans == 'n':
-            unknown.append(word)
-
-    page = translator.translate(known, unknown, transcriptions=True)
-    bs_doc = BeautifulSoup(page, 'html.parser')
-    title = bs_doc.title.string
-    filepath = re.sub(r'[^\w\-_. ]', '_', title)
-    translated_file_path = f'{filepath}.html'
-
-    with open(translated_file_path, encoding='utf-8', mode='w') as f:
-        f.write(page)
-        webbrowser.open(translated_file_path)
