@@ -1,5 +1,4 @@
 import flask.views
-import nltk
 
 from .readable_article import ReadableArticle
 from .utils import load_known_dict, load_unknown_dict
@@ -19,12 +18,7 @@ class Tokens(flask.views.MethodView):
         #  В этом случае вовзращать пустой список
         article = ReadableArticle(url)
 
-        # select unique tokens by regex only in text nodes
-        tokens = []
-        for text in article.text_nodes():
-            for token in nltk.regexp_tokenize(text.lower(), r"[-\w']+"):
-                if token not in tokens:
-                    tokens.append(token)
+        tokens = article.tokens()
 
         known_filepath = f'{access_token}_known.txt'
         unknown_filepath = f'{access_token}_unknown.txt'

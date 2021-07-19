@@ -2,6 +2,7 @@ import re
 from bs4 import BeautifulSoup
 from newspaper import Article
 from readability import Document
+import nltk
 
 
 class ReadableArticle:
@@ -9,6 +10,7 @@ class ReadableArticle:
         self.url = url
         self.article = Article(url)
         self.article.download()
+        self.article.parse()
         self.doc = Document(self.article.html)
         title = self.doc.title()
         self.bs_doc = BeautifulSoup(self.doc.get_clean_html(), 'html.parser')
@@ -26,6 +28,14 @@ class ReadableArticle:
     def text_nodes(self):
         for node in self.body().findChildren(text=True, recursive=True):
             yield node
+
+    def tokens(self):
+        tokens = []
+        for text in self.text_nodes():
+            for token in nltk.regexp_tokenize(text.lower(), r"[-\w']+"):
+                if token not in tokens:
+                    tokens.append(token)
+        return tokens
 
     def body_html(self):
         return self.body().decode_contents()
