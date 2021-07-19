@@ -1,6 +1,7 @@
+# coding: utf-8
 import flask.views
 
-from .utils import hash, is_user_registered
+from utils.auth import hash, is_user_registered
 
 
 class Login(flask.views.MethodView):

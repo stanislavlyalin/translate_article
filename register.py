@@ -3,7 +3,7 @@
 import argparse
 from pathlib import Path
 
-from views.utils import hashes_filepath, hash
+from utils.auth import hashes_filepath, hash
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()

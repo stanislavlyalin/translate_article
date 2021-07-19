@@ -19,7 +19,7 @@ Client                                              Server
   |<--------------------------------------------------|
   |                                                   |
   |                                                   |
-  |      [PUT] /prepare,                              |  # prepare article - insert transcriptions/translations
+  |      [PUT] /translate,                            |  # translate article - insert transcriptions/translations
   |        {url, [known], [unknown],                  |
   |         transcriptions: bool [opt, true],         |
   |         access_token: str}                        |
