@@ -407,6 +407,7 @@ ingredients;ингредиенты;ˌɪnˈgridiənts;
 initially;первоначально;ˌɪˈnɪʃəli;
 ins;ins;ˈaɪˈɛˈnɛs;
 inspecting;осмотр;ˌɪnˈspɛktɪŋ;
+inspired;вдохновленный;ˌɪnˈspaɪərd;The bitcoin design has inspired other applications
 instant;мгновенное;ˈɪnstənt;
 insurance-related;связанный со страхованием;insurance-related*;
 integrity;честность;ˌɪnˈtɛgrəti;
@@ -513,6 +514,7 @@ occurring;происходящий;əˈkərɪŋ;
 offer;предложение;ˈɔfər;
 offerings;предложения;ˈɔfərɪŋz;
 offshore;оффшорный;ˈɔfˈʃɔr;
+oil;масло;ɔɪl;snake oil
 oligopoly;олигополия;ˌɑlɪˈgɑpəli;
 one-third;треть;ˌwənˈθərd;
 onto;на;ˈɔntu;
@@ -585,6 +587,7 @@ prevents;предотвращает;prɪˈvɛnts;
 prime;основной;praɪm;
 principles;принципы;ˈprɪnsəpəlz;
 prioritize;расставлять приоритеты;praɪˈɔrəˌtaɪz;
+privatized;приватизирован;ˈpraɪvəˌtaɪzd;Private blockchains have been proposed for business use but Computerworld called the marketing of such privatized blockchains without a proper security model
 proceed;продолжить;pərˈsid;
 process-valued;технологически оцененный;process-valued*;
 producing;производство;prəˈdusɪŋ;
@@ -592,6 +595,7 @@ product;продукт;ˈprɑdəkt;
 proof-of-anything;доказательство чего-либо;proof-of-anything*;
 proof-of-stakesome;доказательство заинтересованности;proof-of-stakesome*;
 proof-of-x;доказательство x;proof-of-x*;
+proper;правильный;ˈprɑpər;Private blockchains have been proposed for business use but Computerworld called the marketing of such privatized blockchains without a proper security model
 proposal;предложение;prəˈpoʊzəl;
 proposals;предложения;prəˈpoʊzəlz;
 proposed;предложил;prəˈpoʊzd;
