@@ -21,7 +21,7 @@ class Translate(flask.views.MethodView):
         url = args['url']
         known = json.loads(args['known'])
         unknown = json.loads(args['unknown'])
-        transcriptions = args['transcriptions']
+        transcriptions = args['transcriptions'] == 'True'
         access_token = args['access_token']
 
         # update known dict
