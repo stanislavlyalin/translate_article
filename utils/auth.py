@@ -1,8 +1,20 @@
 # coding: utf-8
 import hashlib
+import random
+import string
 from pathlib import Path
 
 hashes_filepath = 'user_hashes.txt'
+
+
+def generate_password(password_len: int = 10):
+    """
+    Generates letters-digits random password of the given length
+    :param password_len: length of the generated password
+    :return: generated password
+    """
+    alphabet = string.ascii_letters + string.digits
+    return ''.join([random.choice(list(alphabet)) for i in range(password_len)])
 
 
 def hash(email, password):
