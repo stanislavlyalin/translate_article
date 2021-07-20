@@ -2,6 +2,24 @@
 
 Server IP address: `34.70.243.200`
 
+## Install desired packages
+
+```commandline
+apt-get install nginx
+apt-get install git
+apt install python3-pip
+```
+
+## Install python packages
+
+```commandline
+pip3 install beautifulsoup4 eng-to-ipa Flask newspaper3k nltk readability-lxml uwsgi
+```
+
+## Deploy project
+
+- `git clone` in `/home` directory
+
 - Create file `translate_article.service` for automatic launch `uWSGI` when
 server starts in the `/etc/systemd/system` directory. Content:
 
@@ -60,9 +78,7 @@ nginx -t
 
 - Restart `uWSGI` и `Nginx`
 
-```
-
+```commandline
 systemctl restart translate_article
 systemctl restart nginx
-
 ```
