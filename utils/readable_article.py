@@ -56,7 +56,7 @@ class ReadableArticle:
             domain = m[1]
         for img in self.bs_doc.find_all('img', {'src': True}):
             if 'http' not in img['src']:
-                img['src'] = 'https:' + img['src']
+                img['src'] = domain + img['src']
         for a in self.bs_doc.find_all('a', {'href': True}):
             if 'http' not in a['href']:
                 a['href'] = domain + a['href']
