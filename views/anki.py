@@ -4,6 +4,8 @@ import re
 
 import flask.views
 
+from utils.dict import unknown_filepath, load_dict, load_global
+
 
 class Anki(flask.views.MethodView):
     @staticmethod
@@ -11,14 +13,16 @@ class Anki(flask.views.MethodView):
         args = dict(flask.request.args)
         access_token = args['access_token']
 
-        unknown_filepath = f'{access_token}_unknown.txt'
-        with open(unknown_filepath, encoding='utf-8') as f:
-            content = f.readlines()
+        unknown_from_file = load_dict(unknown_filepath(access_token))
+        global_dict = load_global()
+        to_anki = {token: global_dict[token] for token in unknown_from_file if
+                   token in global_dict.keys()}
 
         proxy = io.StringIO()
 
-        for line in content:
-            word, translation, transcription, context = line.split(';')
+        for word, value in to_anki.items():
+            translation, transcription, context = value['translation'], value[
+                'transcription'], 'empty context'
 
             r = re.compile(rf'(?<!\w)({word})(?!\w)', re.IGNORECASE)
             context = r.sub(rf'<b>\1</b>', context.strip())

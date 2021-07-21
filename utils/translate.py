@@ -3,15 +3,23 @@ import json
 import re
 
 import requests
+import eng_to_ipa as ipa
 
 
-def load_api_key(filepath):
+def __apikey_path():
     """
-    Loads Google Translate API key from given filepath
-    :param filepath: path to file with API key
+    Returns filepath to translation API key
+    :return: filepath to translation API key
+    """
+    return 'api.key'
+
+
+def load_api_key():
+    """
+    Loads Google Translate API key
     :return: API key as str
     """
-    with open(filepath, encoding='utf-8') as f:
+    with open(__apikey_path(), encoding='utf-8') as f:
         return f.readline().strip()
 
 
@@ -45,3 +53,21 @@ def get_context(word: str, text: str):
                    re.IGNORECASE)
     m = re.search(r, text)
     return m[1].strip() if m else ''
+
+
+def process_tokens(tokens: set):
+    """
+    Make tokens translation and getting transcription and returns result
+    as a dict source tokens as a keys
+    :param tokens: tokens to translate and transcription
+    :return: processed tokens as dict
+    """
+    processed_unknown = {}
+    api_key = load_api_key()
+
+    for token in tokens:
+        translation = translate(token, api_key)
+        transcription = ipa.convert(token)
+        processed_unknown[token] = {'translation': translation,
+                                    'transcription': transcription}
+    return processed_unknown

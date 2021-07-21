@@ -6,7 +6,8 @@ import requests
 
 class Translator:
     def __init__(self):
-        self.base_url = 'http://34.70.243.200/api/v1'
+        # self.base_url = 'http://34.70.243.200/api/v1'
+        self.base_url = 'http://127.0.0.1/api/v1'
         self.access_token = ''
         self.url = ''
 
@@ -25,12 +26,23 @@ class Translator:
             params={'url': url, 'access_token': self.access_token})
         return json.loads(ans.content)
 
-    def translate(self, known: list, unknown: list,
-                  transcriptions: bool = True):
+    def append_known(self, tokens: list):
+        requests.put(self.base_url + '/append_known',
+                     params={
+                         'tokens': json.dumps(tokens),
+                         'access_token': self.access_token})
+
+    def append_unknown(self, tokens: list):
+        requests.put(self.base_url + '/append_unknown',
+                     params={'tokens': json.dumps(tokens),
+                             'access_token': self.access_token})
+
+    def translate(self, transcriptions: bool = True,
+                  translate_unlabeled: bool = True):
         ans = requests.put(self.base_url + '/translate',
-                           params={'url': self.url, 'known': json.dumps(known),
-                                   'unknown': json.dumps(unknown),
+                           params={'url': self.url,
                                    'transcriptions': transcriptions,
+                                   'translate_unlabeled': translate_unlabeled,
                                    'access_token': self.access_token})
         return ans.content.decode('utf-8')
 
