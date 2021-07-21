@@ -31,7 +31,7 @@ if __name__ == '__main__':
         page = translator.translate(known, unknown, transcriptions=True)
 
         bs_doc = BeautifulSoup(page, 'html.parser')
-        valid_filepath = re.sub(r'[^\w\-_. ]', '_', bs_doc.title.string)
+        valid_filepath = re.sub(r'[^\w\-_. ]', '_', bs_doc.title.string.strip())
         translated_filepath = f'{valid_filepath}.html'
 
         with open(translated_filepath, encoding='utf-8', mode='w') as f:
