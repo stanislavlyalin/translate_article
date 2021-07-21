@@ -16,7 +16,7 @@ class ReadableArticle:
         self.doc = Document(self.article.html)
         title = self.doc.title()
         self.bs_doc = BeautifulSoup(self.doc.get_clean_html(), 'html.parser')
-        self.__replace_img_src()
+        self.__replace_resource_url()
 
     def text(self):
         return self.article.text
@@ -42,12 +42,15 @@ class ReadableArticle:
     def body_html(self):
         return self.body().decode_contents()
 
-    def __replace_img_src(self):
+    def __replace_resource_url(self):
         # replace all image tags
         domain = ''
         m = re.search('(https?://.*?)/', self.url)
         if m:
             domain = m[1]
-        for img in self.bs_doc.find_all('img'):
+        for img in self.bs_doc.find_all('img', {'src': True}):
             if 'http' not in img['src']:
-                img['src'] = domain + img['src']
+                img['src'] = 'https:' + img['src']
+        for a in self.bs_doc.find_all('a', {'href': True}):
+            if 'http' not in a['href']:
+                a['href'] = domain + a['href']
