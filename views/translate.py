@@ -72,7 +72,7 @@ class Translate(flask.views.MethodView):
                           height: auto;
                         }
                         span.translation {
-                          color: #eee;
+                          color: #aaa;
                         }
                     </style>
                     '''
