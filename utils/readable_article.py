@@ -21,6 +21,9 @@ class ReadableArticle:
     def text(self):
         return self.article.text
 
+    def head(self):
+        return self.bs_doc.find('head')
+
     def body(self):
         return self.bs_doc.find('body')
 
@@ -41,6 +44,9 @@ class ReadableArticle:
 
     def body_html(self):
         return self.body().decode_contents()
+
+    def whole_html(self):
+        return self.bs_doc.prettify(encoding='utf-8', formatter=None)
 
     def __replace_resource_url(self):
         # replace all image tags

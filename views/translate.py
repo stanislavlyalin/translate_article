@@ -99,25 +99,15 @@ class Translate(flask.views.MethodView):
                         }
                     </style>
                     '''
-        style_attr = 'style="font-family: verdana; font-size: 10pt; ' \
-                     'line-height: 150%; text-align: justify; padding: 30px;"'
         link_to_original = f'<a href="{url}">' \
                            f'Link to original page</a><br><br>'
         node_content = article.body_html(). \
             replace(span_begin, '<span class="translation">'). \
             replace(span_end, '</span>')
-        content = f'''
-                    <!DOCTYPE html>
-                    <html>
-                    <head>
-                    <title>{article.title()}</title>
-                    <meta charset="utf-8"/>
-                    {common_style}
-                    </head>
-                    <body {style_attr}>
-                    {link_to_original}
-                    {node_content}
-                    </body>
-                    </html>
-                    '''
-        return content
+
+        article.head().append(common_style)
+        article.body().clear()
+        article.body().append(link_to_original)
+        article.body().append(node_content)
+
+        return article.whole_html()
