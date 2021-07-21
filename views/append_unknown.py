@@ -16,9 +16,10 @@ class AppendUnknown(flask.views.MethodView):
         unknown = set(json.loads(args['tokens']))
         access_token = args['access_token']
 
+        global_dict = load_global()
         tokens_to_process = set(
-            [token for token in unknown if token not in load_global().keys()])
-        save_global(process_tokens(tokens_to_process))
+            [token for token in unknown if token not in global_dict.keys()])
+        save_global({**global_dict, **process_tokens(tokens_to_process)})
 
         known_from_file = load_dict(known_filepath(access_token))
         unknown_from_file = load_dict(unknown_filepath(access_token))
