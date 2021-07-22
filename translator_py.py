@@ -1,4 +1,5 @@
 # coding: utf-8
+import io
 import json
 
 import requests
@@ -6,7 +7,8 @@ import requests
 
 class Translator:
     def __init__(self):
-        self.base_url = 'http://34.70.243.200/api/v1'
+        # self.base_url = 'http://34.70.243.200/api/v1'
+        self.base_url = 'http://127.0.0.1/api/v1'
         self.access_token = ''
         self.url = ''
 
@@ -20,7 +22,7 @@ class Translator:
 
     def make_article(self, inner_html: str):
         ans = requests.post(self.base_url + '/make_article',
-                            params={'inner_html': inner_html})
+                            files={'inner_html': io.StringIO(inner_html)})
         url = ans.content.decode('utf-8')
         return url
 
