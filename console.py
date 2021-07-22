@@ -13,20 +13,25 @@ if __name__ == '__main__':
 
     translator = Translator()
     known, unknown = [], []
+    logged_email = ''
 
     while True:
-        command = input('> ')
+        command = input(f'{logged_email}> ')
 
         if command.startswith('login'):
             _, email, password = split(command)
             logged_id = translator.login(email, password)
             if not logged_id:
                 print('You are not logged in')
+            else:
+                logged_email = email
 
         if command.startswith('make'):
             input('press any key to paste inner html from clipboard')
             inner_html = pyperclip.paste()
-            print(translator.make_article(inner_html))
+            url = translator.make_article(inner_html)
+            print(url)
+            webbrowser.open(url)
 
         if command.startswith('tokens'):
             _, url = split(command)
