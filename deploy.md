@@ -70,6 +70,18 @@ server {
 ln -s /etc/nginx/sites-available/translate_article /etc/nginx/sites-enabled
 ```
 
+- Add parameter to `Nginx` config (`/etc/nginx/nginx.conf`)
+
+```
+http {
+  # ...
+
+   large_client_header_buffers 64 4096k;
+
+  # ...
+}
+```
+
 - Test `Nginx` configuration
 
 ```commandline
