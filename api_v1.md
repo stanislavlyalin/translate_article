@@ -14,18 +14,42 @@ Client                                              Server
   |                                                   |
   |                                                   |
   |    [G] /tokens, {url: str, access_token: str}     |
-  |-------------------------------------------------->|  # get list of tokens in given article
+  |-------------------------------------------------->|  # get list of tokens in given article never seen before
   |                  200, {[tokens]}                  |
   |<--------------------------------------------------|
   |                                                   |
   |                                                   |
+  |                                                   |
+  |-----+                                             |
+  |     |  # tokens markup (known/unknown/pass)       |
+  |<----+                                             |
+  |                                                   |
+  |                                                   |
+  |                                                   |
+  |  [PUT] /append_known, {[tokens], access_token}    |
+  |-------------------------------------------------->|  # update dictionaries after markup tokens from article
+  |  [PUT] /append_unknown, {[tokens], access_token}  |
+  |-------------------------------------------------->|
+  |                                                   |
+  |                                                   |
+  |                                                   |
+  |                                                   |
   |      [PUT] /translate,                            |  # translate article - insert transcriptions/translations
-  |        {url, [known], [unknown],                  |
+  |        {url,                                      |  # if word from unknown dict has no context, extract context from article text
   |         transcriptions: bool [opt, true],         |
+  |         translate_unlabeled: bool [opt, true]     |
   |         access_token: str}                        |
   |-------------------------------------------------->|
   |                 200, {html: str}                  |
   |<--------------------------------------------------|
+  |                                                   |
+  |                                                   |
+  |                                                   |
+  |   [PUT] /append_known, {[token], access_token}    |  # append dicts word-by-word while reading
+  |   [PUT] /append_unknown, {[token], access_token}  |
+  |-------------------------------------------------->|
+  |                      ...                          |
+  |-------------------------------------------------->|
   |                                                   |
   |                                                   |
   |                                                   |
