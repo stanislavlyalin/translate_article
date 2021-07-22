@@ -26,9 +26,9 @@ Client                                              Server
   |                                                   |
   |                                                   |
   |                                                   |
-  |          [PUT] /append_known, {[tokens]}          |
+  |  [PUT] /append_known, {[tokens], access_token}    |
   |-------------------------------------------------->|  # update dictionaries after markup tokens from article
-  |         [PUT] /append_unknown, {[tokens]}         |
+  |  [PUT] /append_unknown, {[tokens], access_token}  |
   |-------------------------------------------------->|
   |                                                   |
   |                                                   |
@@ -45,8 +45,8 @@ Client                                              Server
   |                                                   |
   |                                                   |
   |                                                   |
-  |          [PUT] /append_known, {[token]}           |  # append dicts word-by-word while reading
-  |          [PUT] /append_unknown, {[token]}         |
+  |   [PUT] /append_known, {[token], access_token}    |  # append dicts word-by-word while reading
+  |   [PUT] /append_unknown, {[token], access_token}  |
   |-------------------------------------------------->|
   |                      ...                          |
   |-------------------------------------------------->|
