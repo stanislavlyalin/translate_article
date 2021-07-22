@@ -1,7 +1,7 @@
 # coding: utf-8
 import flask.views
 
-from utils.dict import load_known_dict, load_unknown_dict
+from utils.dict import known_filepath, unknown_filepath, load_dict
 from utils.readable_article import ReadableArticle
 
 
@@ -13,22 +13,14 @@ class Tokens(flask.views.MethodView):
         access_token = args['access_token']
 
         article = ReadableArticle(url)
-        tokens = article.tokens()
 
-        known = load_known_dict(f'{access_token}_known.txt')
-        unknown = load_unknown_dict(f'{access_token}_unknown.txt')
+        known = load_dict(known_filepath(access_token))
+        unknown = load_dict(unknown_filepath(access_token))
 
-        unseen_tokens = []
-
-        for word in tokens:
-            # known words, digits and one-letter words are passed
-            if word in known or word.isdigit() or len(word) == 1:
-                continue
-
-            # unknown words from dict are passed to increase processing speed
-            if word in unknown.keys():
-                continue
-
-            unseen_tokens.append(word)
+        unseen_tokens = [token for token in article.tokens() if
+                         token not in known and
+                         token not in unknown and
+                         not token.isdigit() and
+                         len(token) > 1]
 
         return flask.jsonify(unseen_tokens), 200
