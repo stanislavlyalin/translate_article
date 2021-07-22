@@ -8,6 +8,8 @@ api_v1 = flask.Blueprint('api-v1', __name__)
 
 api_v1.add_url_rule('/login', methods=['GET'],
                     view_func=views.Login.as_view('login'))
+api_v1.add_url_rule('/make_article', methods=['POST'],
+                    view_func=views.MakeArticle.as_view('make_article'))
 api_v1.add_url_rule('/tokens', methods=['GET'],
                     view_func=views.Tokens.as_view('tokens'))
 api_v1.add_url_rule('/append_known', methods=['PUT'],

@@ -133,3 +133,4 @@ dmypy.json
 /*.json
 /*.key
 /*.html
+/static/*.html

@@ -18,6 +18,12 @@ class Translator:
             self.access_token = token
         return True if self.access_token else False
 
+    def make_article(self, inner_html: str):
+        ans = requests.post(self.base_url + '/make_article',
+                            params={'inner_html': inner_html})
+        url = ans.content.decode('utf-8')
+        return url
+
     def tokens(self, url: str):
         self.url = url
         ans = requests.get(

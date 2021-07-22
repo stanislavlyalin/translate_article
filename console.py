@@ -2,6 +2,7 @@
 import webbrowser
 
 from translator_py import Translator
+import pyperclip
 
 
 def split(command):
@@ -22,11 +23,17 @@ if __name__ == '__main__':
             if not logged_id:
                 print('You are not logged in')
 
+        if command.startswith('make'):
+            input('press any key to paste inner html from clipboard')
+            inner_html = pyperclip.paste()
+            print(translator.make_article(inner_html))
+
         if command.startswith('tokens'):
             _, url = split(command)
             tokens = translator.tokens(url)
-            for token in tokens:
-                ans = input(f"> do you know word '{token}'? ")
+            for i, token in enumerate(tokens):
+                ans = input(
+                    f"> ({i + 1} of {len(tokens)}) do you know word '{token}'? ")
                 if ans.lower() == 'y':
                     known.append(token)
                 elif ans.lower() == 'n':

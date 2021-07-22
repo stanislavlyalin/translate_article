@@ -1,5 +1,6 @@
 # coding: utf-8
 import re
+import os
 
 import flask.views
 
@@ -21,6 +22,11 @@ class Translate(flask.views.MethodView):
 
         article = ReadableArticle(url)
         tokens = set(article.tokens())
+
+        if flask.request.url_root in url:
+            filepath = url.replace(flask.request.url_root, '')
+            if os.path.exists(filepath):
+                os.remove(filepath)
 
         known_from_file = load_dict(known_filepath(access_token))
         unknown_from_file = load_dict(unknown_filepath(access_token))
