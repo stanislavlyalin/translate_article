@@ -1,8 +1,8 @@
 # coding: utf-8
-import flask.views
-
 import hashlib
 from pathlib import Path
+
+import flask.views
 
 
 class MakeArticle(flask.views.MethodView):
@@ -19,13 +19,6 @@ class MakeArticle(flask.views.MethodView):
         with open(filename, encoding='utf-8', mode='w') as page:
             style = '''
             <style type="text/css">
-                body {
-                    font-family: verdana;
-                    font-size: 10pt;
-                    line-height: 150%;
-                    text-align: justify;
-                    padding: 30px;
-                }   
                 img {
                     max-width: 100%;
                     height: auto;
@@ -33,13 +26,16 @@ class MakeArticle(flask.views.MethodView):
             </style>
             '''
 
+            body_style = 'font-family: verdana; font-size: 10pt; line-height:' \
+                         ' 150%; text-align: justify; padding: 30px;'
+
             page.write(f'''
             <!doctype html>
             <html>
                 <head>
                     {style}
                 </head>
-                <body>
+                <body style="{body_style}">
                     {inner_html}
                 </body>
             </html>
