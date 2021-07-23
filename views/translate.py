@@ -1,11 +1,11 @@
 # coding: utf-8
-import re
 import os
+import re
 
 import flask.views
 
 from utils.dict import load_dict, known_filepath, unknown_filepath, load_global
-from utils.readable_article import ReadableArticle
+from utils.readable_article import custom_style, ReadableArticle
 from utils.translate import process_tokens
 
 span_begin, span_end = 'SPAN_BEGIN', 'SPAN_END'
@@ -89,6 +89,10 @@ class Translate(flask.views.MethodView):
             replace(span_end, '</span>')
 
         article.head().append(common_style)
+
+        if flask.request.url_root in url:
+            article.head().append(custom_style())
+
         article.body().clear()
         article.body().append(link_to_original)
         article.body().append(node_content)

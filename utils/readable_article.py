@@ -7,6 +7,25 @@ from newspaper import Article
 from readability import Document
 
 
+def custom_style():
+    return '''
+        <style type="text/css">
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+            
+            body {
+                font-family: verdana;
+                font-size: 10pt;
+                line-height: 150%;
+                text-align: justify;
+                padding: 30px;
+            }
+        </style>
+        '''
+
+
 class ReadableArticle:
     def __init__(self, url: str):
         self.url = url
