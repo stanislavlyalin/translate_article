@@ -11,6 +11,7 @@ class MakeArticle(flask.views.MethodView):
         args = dict(flask.request.args)
         inner_html_file = flask.request.files['inner_html']
         inner_html = inner_html_file.read().decode('utf-8')
+        inner_html = inner_html.replace('\n', '<br/>')
 
         static_dir = 'static'
         Path(static_dir).mkdir(parents=True, exist_ok=True)
