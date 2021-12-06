@@ -7,7 +7,7 @@ import requests
 
 class Translator:
     def __init__(self):
-        self.base_url = 'http://34.70.243.200/api/v1'
+        self.base_url = 'http://127.0.0.1:5000/api/v1'
         self.access_token = ''
         self.url = ''
 
