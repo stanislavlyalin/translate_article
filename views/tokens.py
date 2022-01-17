@@ -17,10 +17,15 @@ class Tokens(flask.views.MethodView):
         known = load_dict(known_filepath(access_token))
         unknown = load_dict(unknown_filepath(access_token))
 
+        def has_numbers(s: str) -> bool:
+            return any(char.isdigit() for char in s)
+
         unseen_tokens = [token for token in article.tokens() if
                          token not in known and
                          token not in unknown and
                          not token.isdigit() and
+                         not has_numbers(token) and
+                         not token.endswith("'s") and
                          len(token) > 1]
 
         return flask.jsonify(unseen_tokens), 200
