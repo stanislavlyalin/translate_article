@@ -13,7 +13,7 @@ class Translator:
 
     def login(self, email: str, password: str):
         ans = requests.get(self.base_url + '/login',
-                           params={'email': email, 'password': password})
+                           params={'email': email, 'password': password}, timeout=self.__timeout())
         token = json.loads(ans.content)
         if token:
             self.access_token = token
@@ -21,7 +21,7 @@ class Translator:
 
     def make_article(self, inner_html: str):
         ans = requests.post(self.base_url + '/make_article',
-                            files={'inner_html': io.StringIO(inner_html)})
+                            files={'inner_html': io.StringIO(inner_html)}, timeout=self.__timeout())
         url = ans.content.decode('utf-8')
         return url
 
@@ -29,19 +29,19 @@ class Translator:
         self.url = url
         ans = requests.get(
             self.base_url + '/tokens',
-            params={'url': url, 'access_token': self.access_token})
+            params={'url': url, 'access_token': self.access_token}, timeout=self.__timeout())
         return json.loads(ans.content)
 
     def append_known(self, tokens: list):
         requests.put(self.base_url + '/append_known',
                      params={
                          'tokens': json.dumps(tokens),
-                         'access_token': self.access_token})
+                         'access_token': self.access_token}, timeout=self.__timeout())
 
     def append_unknown(self, tokens: list):
         requests.put(self.base_url + '/append_unknown',
                      params={'tokens': json.dumps(tokens),
-                             'access_token': self.access_token})
+                             'access_token': self.access_token}, timeout=self.__timeout())
 
     def translate(self, transcriptions: bool = True,
                   translate_unlabeled: bool = True):
@@ -49,11 +49,15 @@ class Translator:
                            params={'url': self.url,
                                    'transcriptions': transcriptions,
                                    'translate_unlabeled': translate_unlabeled,
-                                   'access_token': self.access_token})
+                                   'access_token': self.access_token}, timeout=self.__timeout())
         return ans.content.decode('utf-8')
 
     def anki(self, filepath):
         ans = requests.get(self.base_url + '/anki',
-                           params={'access_token': self.access_token})
+                           params={'access_token': self.access_token}, timeout=self.__timeout())
         with open(filepath, encoding='utf-8', mode='w') as f:
             f.write(ans.content.decode('utf-8'))
+
+    @staticmethod
+    def __timeout() -> float:
+        return 10 * 60.0  # 10 minutes
