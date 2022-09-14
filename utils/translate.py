@@ -27,14 +27,27 @@ def translate(text, api_key):
     """
     Performs text translation from en to ru with given API key
     :param text: text to translate
-    :param api_key: Google Translate API key
+    :param api_key: Yandex Translate API key
     :return: translated text
     """
-    url = 'https://translation.googleapis.com/language/translate/v2'
-    ans = json.loads(
-        requests.post(url, json={'q': text, 'source': 'en', 'target': 'ru'},
-                      params={'key': api_key}).text)
-    return ans['data']['translations'][0]['translatedText']
+    url = 'https://translate.api.cloud.yandex.net/translate/v2/translate'
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f'Api-Key {api_key}'
+    }
+    body = {
+        'sourceLanguageCode': 'en',
+        'targetLanguageCode': 'ru',
+        'texts': [text]
+    }
+    ans = json.loads(requests.post(url, json=body, headers=headers).text)
+    try:
+        print(ans)
+        translation = ans['translations'][0]['text']
+    except Exception as e:
+        print(text, e)
+        translation = text
+    return translation
 
 
 def get_context(word: str, text: str):
